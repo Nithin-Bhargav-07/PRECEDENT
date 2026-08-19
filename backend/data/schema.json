@@ -1,0 +1,86 @@
+{
+  "version": "1.0.0",
+  "categories": [
+    {
+      "id": "CAT_TECH",
+      "name": "Technical State",
+      "factors": [
+        {
+          "id": "known_unresolved_issue",
+          "label": "Known Unresolved Issue",
+          "type": "boolean",
+          "description": "Known, recurring, or unresolved hardware/software anomaly present in the system.",
+          "diagnostic_question": "Is there a known, recurring, or unresolved hardware/software anomaly present in the system?"
+        },
+        {
+          "id": "safety_margin_degraded",
+          "label": "Safety Margin Degraded",
+          "type": "boolean",
+          "description": "System operating outside tested thermal, structural, or environmental safety margins.",
+          "diagnostic_question": "Is the system operating outside tested thermal, structural, or environmental safety margins?"
+        }
+      ]
+    },
+    {
+      "id": "CAT_ENV",
+      "name": "Decision Environment",
+      "factors": [
+        {
+          "id": "schedule_pressure",
+          "label": "Schedule Pressure",
+          "type": "enum",
+          "allowed_values": ["LOW", "MEDIUM", "HIGH"],
+          "description": "External launch window, commercial, or public schedule pressure influencing the review.",
+          "diagnostic_question": "Is there external launch window, commercial, or public schedule pressure influencing the review?"
+        },
+        {
+          "id": "external_conditions_marginal",
+          "label": "External Conditions Marginal",
+          "type": "boolean",
+          "description": "Environmental conditions near or outside design limits.",
+          "diagnostic_question": "Are environmental conditions (ambient temp, sea state, space weather) near or outside design limits?"
+        }
+      ]
+    },
+    {
+      "id": "CAT_HUMAN",
+      "name": "Human Factors",
+      "factors": [
+        {
+          "id": "dissent_raised_and_overridden",
+          "label": "Dissent Raised and Overridden",
+          "type": "boolean",
+          "description": "Engineering dissent was raised and subsequently overruled.",
+          "diagnostic_question": "Did an engineering team, subsystem lead, or contractor raise formal or informal dissent that was overruled?"
+        },
+        {
+          "id": "missing_evidence_acknowledged",
+          "label": "Missing Evidence Acknowledged",
+          "type": "boolean",
+          "description": "Board acknowledged missing telemetry or inconclusive data but proceeded.",
+          "diagnostic_question": "Did the board acknowledge missing telemetry, inconclusive test data, or unproven assumptions but proceed anyway?"
+        }
+      ]
+    },
+    {
+      "id": "CAT_PROCESS",
+      "name": "Process Quality",
+      "factors": [
+        {
+          "id": "prior_normalization_of_risk",
+          "label": "Prior Normalization of Risk",
+          "type": "boolean",
+          "description": "Similar anomaly occurred on prior flights and was accepted as acceptable risk.",
+          "diagnostic_question": "Has this identical or similar anomaly occurred on prior flights and been accepted as acceptable risk?"
+        },
+        {
+          "id": "independent_review_skipped",
+          "label": "Independent Review Skipped",
+          "type": "boolean",
+          "description": "Independent technical review or mandatory safety escalation was bypassed.",
+          "diagnostic_question": "Was an independent technical review, peer verification, or mandatory safety escalation bypassed or accelerated?"
+        }
+      ]
+    }
+  ]
+}

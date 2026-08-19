@@ -1,0 +1,6 @@
+{
+    "python.analysis.ignore": [
+        "**/__pyrefly_virtual__/**",
+        "**/inmemory/**"
+    ]
+}

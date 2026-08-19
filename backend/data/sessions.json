@@ -1,0 +1,2906 @@
+[
+  {
+    "session_id": "SESS-4A9130D7",
+    "created_at": "2026-08-12T15:06:21.828400Z",
+    "updated_at": "2026-08-12T15:06:21.829832Z",
+    "submitter": {
+      "role": "Lead Flight Director",
+      "review_board": "Mission Management Team"
+    },
+    "input": {
+      "title": "Orbital Separation Thermal Survey",
+      "mission_context": "On-Orbit Anomaly Assessment",
+      "raw_description": "Inspection camera shows thermal blanket damage."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-4A9130D7",
+      "action": "ACKNOWLEDGED",
+      "engineer_notes": "Board reviewed Challenger and Atlantis precedents; contingency reentry profile approved.",
+      "recorded_at": "2026-08-12T15:06:21.829832Z"
+    }
+  },
+  {
+    "session_id": "SESS-58AD9F22",
+    "created_at": "2026-08-12T15:06:21.868352Z",
+    "updated_at": "2026-08-12T15:06:21.869653Z",
+    "submitter": {
+      "role": "Engineer",
+      "review_board": "Test Board"
+    },
+    "input": {
+      "title": "Persistence Test Session",
+      "mission_context": "Testing",
+      "raw_description": "Testing session persistence across reloads."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-58AD9F22",
+      "action": "DISMISSED",
+      "engineer_notes": "Test persistence",
+      "recorded_at": "2026-08-12T15:06:21.869653Z"
+    }
+  },
+  {
+    "session_id": "SESS-6571B82C",
+    "created_at": "2026-08-12T15:06:21.874838Z",
+    "updated_at": "2026-08-12T15:06:21.875865Z",
+    "submitter": {
+      "role": "Chief Engineer / Mission Director",
+      "review_board": "Flight Readiness Review Board"
+    },
+    "input": {
+      "title": "Solid Rocket Booster O-Ring Low Temperature Launch Clearance",
+      "mission_context": "STS Flight Readiness Review (FRR) \u2014 Level III / Level IV",
+      "raw_description": "During the pre-launch teleconference at Launch Complex 39B, forecasted overnight ambient temperature is 29\u00b0F, far below the demonstrated test limit of 53\u00b0F. Propulsion contractor engineers formally recommend NO LAUNCH due to primary O-ring resiliency data and documented blow-by on STS-51-C. NASA project managers contest the recommendation, demanding engineers prove the joint will fail. In an offline caucus, contractor management overrules engineering dissent to meet tight launch windows, proceeding without low-temperature qualification data."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-6571B82C",
+      "action": "ACKNOWLEDGED",
+      "engineer_notes": "Board acknowledged Challenger precedent.",
+      "recorded_at": "2026-08-12T15:06:21.875865Z"
+    }
+  },
+  {
+    "session_id": "SESS-A4DE9B51",
+    "created_at": "2026-08-12T15:07:10.175145Z",
+    "updated_at": "2026-08-12T15:07:10.176911Z",
+    "submitter": {
+      "role": "Lead Flight Director",
+      "review_board": "Mission Management Team"
+    },
+    "input": {
+      "title": "Orbital Separation Thermal Survey",
+      "mission_context": "On-Orbit Anomaly Assessment",
+      "raw_description": "Inspection camera shows thermal blanket damage."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-A4DE9B51",
+      "action": "ACKNOWLEDGED",
+      "engineer_notes": "Board reviewed Challenger and Atlantis precedents; contingency reentry profile approved.",
+      "recorded_at": "2026-08-12T15:07:10.176911Z"
+    }
+  },
+  {
+    "session_id": "SESS-CA110B1C",
+    "created_at": "2026-08-12T15:07:10.212540Z",
+    "updated_at": "2026-08-12T15:07:10.213556Z",
+    "submitter": {
+      "role": "Engineer",
+      "review_board": "Test Board"
+    },
+    "input": {
+      "title": "Persistence Test Session",
+      "mission_context": "Testing",
+      "raw_description": "Testing session persistence across reloads."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-CA110B1C",
+      "action": "DISMISSED",
+      "engineer_notes": "Test persistence",
+      "recorded_at": "2026-08-12T15:07:10.213556Z"
+    }
+  },
+  {
+    "session_id": "SESS-BB778D8D",
+    "created_at": "2026-08-12T15:07:10.218845Z",
+    "updated_at": "2026-08-12T15:07:10.220195Z",
+    "submitter": {
+      "role": "Chief Engineer / Mission Director",
+      "review_board": "Flight Readiness Review Board"
+    },
+    "input": {
+      "title": "Solid Rocket Booster O-Ring Low Temperature Launch Clearance",
+      "mission_context": "STS Flight Readiness Review (FRR) \u2014 Level III / Level IV",
+      "raw_description": "During the pre-launch teleconference at Launch Complex 39B, forecasted overnight ambient temperature is 29\u00b0F, far below the demonstrated test limit of 53\u00b0F. Propulsion contractor engineers formally recommend NO LAUNCH due to primary O-ring resiliency data and documented blow-by on STS-51-C. NASA project managers contest the recommendation, demanding engineers prove the joint will fail. In an offline caucus, contractor management overrules engineering dissent to meet tight launch windows, proceeding without low-temperature qualification data."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-BB778D8D",
+      "action": "ACKNOWLEDGED",
+      "engineer_notes": "Board acknowledged Challenger precedent.",
+      "recorded_at": "2026-08-12T15:07:10.220195Z"
+    }
+  },
+  {
+    "session_id": "SESS-FE6766A7",
+    "created_at": "2026-08-12T15:09:01.071140Z",
+    "updated_at": "2026-08-12T15:09:01.073484Z",
+    "submitter": {
+      "role": "Lead Flight Director",
+      "review_board": "Mission Management Team"
+    },
+    "input": {
+      "title": "Orbital Separation Thermal Survey",
+      "mission_context": "On-Orbit Anomaly Assessment",
+      "raw_description": "Inspection camera shows thermal blanket damage."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-FE6766A7",
+      "action": "ACKNOWLEDGED",
+      "engineer_notes": "Board reviewed Challenger and Atlantis precedents; contingency reentry profile approved.",
+      "recorded_at": "2026-08-12T15:09:01.073484Z"
+    }
+  },
+  {
+    "session_id": "SESS-EBD98529",
+    "created_at": "2026-08-12T15:09:01.109107Z",
+    "updated_at": "2026-08-12T15:09:01.110307Z",
+    "submitter": {
+      "role": "Engineer",
+      "review_board": "Test Board"
+    },
+    "input": {
+      "title": "Persistence Test Session",
+      "mission_context": "Testing",
+      "raw_description": "Testing session persistence across reloads."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-EBD98529",
+      "action": "DISMISSED",
+      "engineer_notes": "Test persistence",
+      "recorded_at": "2026-08-12T15:09:01.110307Z"
+    }
+  },
+  {
+    "session_id": "SESS-7C0DC72B",
+    "created_at": "2026-08-12T15:09:01.115616Z",
+    "updated_at": "2026-08-12T15:09:01.116781Z",
+    "submitter": {
+      "role": "Chief Engineer / Mission Director",
+      "review_board": "Flight Readiness Review Board"
+    },
+    "input": {
+      "title": "Solid Rocket Booster O-Ring Low Temperature Launch Clearance",
+      "mission_context": "STS Flight Readiness Review (FRR) \u2014 Level III / Level IV",
+      "raw_description": "During the pre-launch teleconference at Launch Complex 39B, forecasted overnight ambient temperature is 29\u00b0F, far below the demonstrated test limit of 53\u00b0F. Propulsion contractor engineers formally recommend NO LAUNCH due to primary O-ring resiliency data and documented blow-by on STS-51-C. NASA project managers contest the recommendation, demanding engineers prove the joint will fail. In an offline caucus, contractor management overrules engineering dissent to meet tight launch windows, proceeding without low-temperature qualification data."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-7C0DC72B",
+      "action": "ACKNOWLEDGED",
+      "engineer_notes": "Board acknowledged Challenger precedent.",
+      "recorded_at": "2026-08-12T15:09:01.116781Z"
+    }
+  },
+  {
+    "session_id": "SESS-3CCCAC9B",
+    "created_at": "2026-08-12T15:11:45.538188Z",
+    "updated_at": "2026-08-12T15:11:45.540114Z",
+    "submitter": {
+      "role": "Lead Flight Director",
+      "review_board": "Mission Management Team"
+    },
+    "input": {
+      "title": "Orbital Separation Thermal Survey",
+      "mission_context": "On-Orbit Anomaly Assessment",
+      "raw_description": "Inspection camera shows thermal blanket damage."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-3CCCAC9B",
+      "action": "ACKNOWLEDGED",
+      "engineer_notes": "Board reviewed Challenger and Atlantis precedents; contingency reentry profile approved.",
+      "recorded_at": "2026-08-12T15:11:45.540114Z"
+    }
+  },
+  {
+    "session_id": "SESS-53B656DA",
+    "created_at": "2026-08-12T15:11:45.553987Z",
+    "updated_at": "2026-08-12T15:11:45.555162Z",
+    "submitter": {
+      "role": "Engineer",
+      "review_board": "Test Board"
+    },
+    "input": {
+      "title": "Persistence Test Session",
+      "mission_context": "Testing",
+      "raw_description": "Testing session persistence across reloads."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-53B656DA",
+      "action": "DISMISSED",
+      "engineer_notes": "Test persistence",
+      "recorded_at": "2026-08-12T15:11:45.555162Z"
+    }
+  },
+  {
+    "session_id": "SESS-E677C439",
+    "created_at": "2026-08-12T15:11:45.562997Z",
+    "updated_at": "2026-08-12T15:11:45.564285Z",
+    "submitter": {
+      "role": "Chief Engineer / Mission Director",
+      "review_board": "Flight Readiness Review Board"
+    },
+    "input": {
+      "title": "Solid Rocket Booster O-Ring Low Temperature Launch Clearance",
+      "mission_context": "STS Flight Readiness Review (FRR) \u2014 Level III / Level IV",
+      "raw_description": "During the pre-launch teleconference at Launch Complex 39B, forecasted overnight ambient temperature is 29\u00b0F, far below the demonstrated test limit of 53\u00b0F. Propulsion contractor engineers formally recommend NO LAUNCH due to primary O-ring resiliency data and documented blow-by on STS-51-C. NASA project managers contest the recommendation, demanding engineers prove the joint will fail. In an offline caucus, contractor management overrules engineering dissent to meet tight launch windows, proceeding without low-temperature qualification data."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-E677C439",
+      "action": "ACKNOWLEDGED",
+      "engineer_notes": "Board acknowledged Challenger precedent.",
+      "recorded_at": "2026-08-12T15:11:45.564285Z"
+    }
+  },
+  {
+    "session_id": "SESS-940BCDB0",
+    "created_at": "2026-08-13T12:43:37.938578Z",
+    "updated_at": "2026-08-13T12:43:37.938578Z",
+    "submitter": {
+      "role": "Chief Engineer / Mission Director",
+      "review_board": "Flight Readiness Review Board"
+    },
+    "input": {
+      "title": "Solid Rocket Booster O-Ring Low Temperature Launch Clearance",
+      "mission_context": "STS Flight Readiness Review (FRR) \u2014 Level III / Level IV",
+      "raw_description": "During the pre-launch teleconference at Launch Complex 39B, forecasted overnight ambient temperature is 29\u00b0F, far below the demonstrated test limit of 53\u00b0F. Propulsion contractor engineers formally recommend NO LAUNCH due to primary O-ring resiliency data and documented blow-by on STS-51-C. NASA project managers contest the recommendation, demanding engineers prove the joint will fail. In an offline caucus, contractor management overrules engineering dissent to meet tight planetary launch windows, proceeding without low-temperature qualification data."
+    },
+    "extracted_factors": {
+      "known_unresolved_issue": {
+        "factor_id": "known_unresolved_issue",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": "Manually adjusted by reviewing engineer."
+      },
+      "safety_margin_degraded": {
+        "factor_id": "safety_margin_degraded",
+        "value": false,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": true,
+        "modification_reason": "Manually adjusted by reviewing engineer."
+      },
+      "schedule_pressure": {
+        "factor_id": "schedule_pressure",
+        "value": "HIGH",
+        "extracted_value": "HIGH",
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "external_conditions_marginal": {
+        "factor_id": "external_conditions_marginal",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "dissent_raised_and_overridden": {
+        "factor_id": "dissent_raised_and_overridden",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "missing_evidence_acknowledged": {
+        "factor_id": "missing_evidence_acknowledged",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "prior_normalization_of_risk": {
+        "factor_id": "prior_normalization_of_risk",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "independent_review_skipped": {
+        "factor_id": "independent_review_skipped",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      }
+    },
+    "analysis_result": null,
+    "audit_action": null
+  },
+  {
+    "session_id": "SESS-319EF27D",
+    "created_at": "2026-08-13T13:34:13.859992Z",
+    "updated_at": "2026-08-13T13:34:13.859992Z",
+    "submitter": {
+      "role": "Chief Engineer / Mission Director",
+      "review_board": "Flight Readiness Review Board"
+    },
+    "input": {
+      "title": "Solid Rocket Booster O-Ring Low Temperature Launch Clearance",
+      "mission_context": "STS Flight Readiness Review (FRR) \u2014 Level III / Level IV",
+      "raw_description": "During the pre-launch teleconference at Launch Complex 39B, forecasted overnight ambient temperature is 29\u00b0F, far below the demonstrated test limit of 53\u00b0F. Propulsion contractor engineers formally recommend NO LAUNCH due to primary O-ring resiliency data and documented blow-by on STS-51-C. NASA project managers contest the recommendation, demanding engineers prove the joint will fail. In an offline caucus, contractor management overrules engineering dissent to meet tight planetary launch windows, proceeding without low-temperature qualification data."
+    },
+    "extracted_factors": {
+      "known_unresolved_issue": {
+        "factor_id": "known_unresolved_issue",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "safety_margin_degraded": {
+        "factor_id": "safety_margin_degraded",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "schedule_pressure": {
+        "factor_id": "schedule_pressure",
+        "value": "HIGH",
+        "extracted_value": "HIGH",
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "external_conditions_marginal": {
+        "factor_id": "external_conditions_marginal",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "dissent_raised_and_overridden": {
+        "factor_id": "dissent_raised_and_overridden",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "missing_evidence_acknowledged": {
+        "factor_id": "missing_evidence_acknowledged",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "prior_normalization_of_risk": {
+        "factor_id": "prior_normalization_of_risk",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "independent_review_skipped": {
+        "factor_id": "independent_review_skipped",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      }
+    },
+    "analysis_result": null,
+    "audit_action": null
+  },
+  {
+    "session_id": "SESS-6A70B893",
+    "created_at": "2026-08-13T14:06:38.331602Z",
+    "updated_at": "2026-08-13T14:06:38.333653Z",
+    "submitter": {
+      "role": "Lead Flight Director",
+      "review_board": "Mission Management Team"
+    },
+    "input": {
+      "title": "Orbital Separation Thermal Survey",
+      "mission_context": "On-Orbit Anomaly Assessment",
+      "raw_description": "Inspection camera shows thermal blanket damage."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-6A70B893",
+      "action": "ACKNOWLEDGED",
+      "engineer_notes": "Board reviewed Challenger and Atlantis precedents; contingency reentry profile approved.",
+      "recorded_at": "2026-08-13T14:06:38.333653Z"
+    }
+  },
+  {
+    "session_id": "SESS-E8768C39",
+    "created_at": "2026-08-13T14:06:38.345682Z",
+    "updated_at": "2026-08-13T14:06:38.346922Z",
+    "submitter": {
+      "role": "Engineer",
+      "review_board": "Test Board"
+    },
+    "input": {
+      "title": "Persistence Test Session",
+      "mission_context": "Testing",
+      "raw_description": "Testing session persistence across reloads."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-E8768C39",
+      "action": "DISMISSED",
+      "engineer_notes": "Test persistence",
+      "recorded_at": "2026-08-13T14:06:38.346922Z"
+    }
+  },
+  {
+    "session_id": "SESS-4C57990C",
+    "created_at": "2026-08-13T14:06:38.352187Z",
+    "updated_at": "2026-08-13T14:06:38.353539Z",
+    "submitter": {
+      "role": "Chief Engineer / Mission Director",
+      "review_board": "Flight Readiness Review Board"
+    },
+    "input": {
+      "title": "Solid Rocket Booster O-Ring Low Temperature Launch Clearance",
+      "mission_context": "STS Flight Readiness Review (FRR) \u2014 Level III / Level IV",
+      "raw_description": "During the pre-launch teleconference at Launch Complex 39B, forecasted overnight ambient temperature is 29\u00b0F, far below the demonstrated test limit of 53\u00b0F. Propulsion contractor engineers formally recommend NO LAUNCH due to primary O-ring resiliency data and documented blow-by on STS-51-C. NASA project managers contest the recommendation, demanding engineers prove the joint will fail. In an offline caucus, contractor management overrules engineering dissent to meet tight launch windows, proceeding without low-temperature qualification data."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-4C57990C",
+      "action": "ACKNOWLEDGED",
+      "engineer_notes": "Board acknowledged Challenger precedent.",
+      "recorded_at": "2026-08-13T14:06:38.353539Z"
+    }
+  },
+  {
+    "session_id": "SESS-8652E180",
+    "created_at": "2026-08-13T14:14:26.377639Z",
+    "updated_at": "2026-08-13T14:14:26.379748Z",
+    "submitter": {
+      "role": "Lead Flight Director",
+      "review_board": "Mission Management Team"
+    },
+    "input": {
+      "title": "Orbital Separation Thermal Survey",
+      "mission_context": "On-Orbit Anomaly Assessment",
+      "raw_description": "Inspection camera shows thermal blanket damage."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-8652E180",
+      "action": "ACKNOWLEDGED",
+      "engineer_notes": "Board reviewed Challenger and Atlantis precedents; contingency reentry profile approved.",
+      "recorded_at": "2026-08-13T14:14:26.379748Z"
+    }
+  },
+  {
+    "session_id": "SESS-B1AC103F",
+    "created_at": "2026-08-13T14:14:26.392331Z",
+    "updated_at": "2026-08-13T14:14:26.393699Z",
+    "submitter": {
+      "role": "Engineer",
+      "review_board": "Test Board"
+    },
+    "input": {
+      "title": "Persistence Test Session",
+      "mission_context": "Testing",
+      "raw_description": "Testing session persistence across reloads."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-B1AC103F",
+      "action": "DISMISSED",
+      "engineer_notes": "Test persistence",
+      "recorded_at": "2026-08-13T14:14:26.393699Z"
+    }
+  },
+  {
+    "session_id": "SESS-FE85029D",
+    "created_at": "2026-08-13T14:14:26.399025Z",
+    "updated_at": "2026-08-13T14:14:26.400380Z",
+    "submitter": {
+      "role": "Chief Engineer / Mission Director",
+      "review_board": "Flight Readiness Review Board"
+    },
+    "input": {
+      "title": "Solid Rocket Booster O-Ring Low Temperature Launch Clearance",
+      "mission_context": "STS Flight Readiness Review (FRR) \u2014 Level III / Level IV",
+      "raw_description": "During the pre-launch teleconference at Launch Complex 39B, forecasted overnight ambient temperature is 29\u00b0F, far below the demonstrated test limit of 53\u00b0F. Propulsion contractor engineers formally recommend NO LAUNCH due to primary O-ring resiliency data and documented blow-by on STS-51-C. NASA project managers contest the recommendation, demanding engineers prove the joint will fail. In an offline caucus, contractor management overrules engineering dissent to meet tight launch windows, proceeding without low-temperature qualification data."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-FE85029D",
+      "action": "ACKNOWLEDGED",
+      "engineer_notes": "Board acknowledged Challenger precedent.",
+      "recorded_at": "2026-08-13T14:14:26.400380Z"
+    }
+  },
+  {
+    "session_id": "SESS-C69900AB",
+    "created_at": "2026-08-14T06:36:17.017788Z",
+    "updated_at": "2026-08-14T06:36:17.022363Z",
+    "submitter": {
+      "role": "Lead Flight Director",
+      "review_board": "Mission Management Team"
+    },
+    "input": {
+      "title": "Orbital Separation Thermal Survey",
+      "mission_context": "On-Orbit Anomaly Assessment",
+      "raw_description": "Inspection camera shows thermal blanket damage."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-C69900AB",
+      "action": "ACKNOWLEDGED",
+      "engineer_notes": "Board reviewed Challenger and Atlantis precedents; contingency reentry profile approved.",
+      "recorded_at": "2026-08-14T06:36:17.022363Z"
+    }
+  },
+  {
+    "session_id": "SESS-B1D76426",
+    "created_at": "2026-08-14T06:36:17.040051Z",
+    "updated_at": "2026-08-14T06:36:17.041724Z",
+    "submitter": {
+      "role": "Engineer",
+      "review_board": "Test Board"
+    },
+    "input": {
+      "title": "Persistence Test Session",
+      "mission_context": "Testing",
+      "raw_description": "Testing session persistence across reloads."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-B1D76426",
+      "action": "DISMISSED",
+      "engineer_notes": "Test persistence",
+      "recorded_at": "2026-08-14T06:36:17.041724Z"
+    }
+  },
+  {
+    "session_id": "SESS-156FA27B",
+    "created_at": "2026-08-14T06:36:17.049514Z",
+    "updated_at": "2026-08-14T06:36:17.052596Z",
+    "submitter": {
+      "role": "Chief Engineer / Mission Director",
+      "review_board": "Flight Readiness Review Board"
+    },
+    "input": {
+      "title": "Solid Rocket Booster O-Ring Low Temperature Launch Clearance",
+      "mission_context": "STS Flight Readiness Review (FRR) \u2014 Level III / Level IV",
+      "raw_description": "During the pre-launch teleconference at Launch Complex 39B, forecasted overnight ambient temperature is 29\u00b0F, far below the demonstrated test limit of 53\u00b0F. Propulsion contractor engineers formally recommend NO LAUNCH due to primary O-ring resiliency data and documented blow-by on STS-51-C. NASA project managers contest the recommendation, demanding engineers prove the joint will fail. In an offline caucus, contractor management overrules engineering dissent to meet tight launch windows, proceeding without low-temperature qualification data."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-156FA27B",
+      "action": "ACKNOWLEDGED",
+      "engineer_notes": "Board acknowledged Challenger precedent.",
+      "recorded_at": "2026-08-14T06:36:17.052596Z"
+    }
+  },
+  {
+    "session_id": "SESS-90F882FB",
+    "created_at": "2026-08-14T06:37:39.342695Z",
+    "updated_at": "2026-08-14T06:37:39.346971Z",
+    "submitter": {
+      "role": "Lead Flight Director",
+      "review_board": "Mission Management Team"
+    },
+    "input": {
+      "title": "Orbital Separation Thermal Survey",
+      "mission_context": "On-Orbit Anomaly Assessment",
+      "raw_description": "Inspection camera shows thermal blanket damage."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-90F882FB",
+      "action": "ACKNOWLEDGED",
+      "engineer_notes": "Board reviewed Challenger and Atlantis precedents; contingency reentry profile approved.",
+      "recorded_at": "2026-08-14T06:37:39.346971Z"
+    }
+  },
+  {
+    "session_id": "SESS-0B231440",
+    "created_at": "2026-08-14T06:37:39.359199Z",
+    "updated_at": "2026-08-14T06:37:39.360699Z",
+    "submitter": {
+      "role": "Engineer",
+      "review_board": "Test Board"
+    },
+    "input": {
+      "title": "Persistence Test Session",
+      "mission_context": "Testing",
+      "raw_description": "Testing session persistence across reloads."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-0B231440",
+      "action": "DISMISSED",
+      "engineer_notes": "Test persistence",
+      "recorded_at": "2026-08-14T06:37:39.360699Z"
+    }
+  },
+  {
+    "session_id": "SESS-CF362933",
+    "created_at": "2026-08-14T06:37:39.366560Z",
+    "updated_at": "2026-08-14T06:37:39.368080Z",
+    "submitter": {
+      "role": "Chief Engineer / Mission Director",
+      "review_board": "Flight Readiness Review Board"
+    },
+    "input": {
+      "title": "Solid Rocket Booster O-Ring Low Temperature Launch Clearance",
+      "mission_context": "STS Flight Readiness Review (FRR) \u2014 Level III / Level IV",
+      "raw_description": "During the pre-launch teleconference at Launch Complex 39B, forecasted overnight ambient temperature is 29\u00b0F, far below the demonstrated test limit of 53\u00b0F. Propulsion contractor engineers formally recommend NO LAUNCH due to primary O-ring resiliency data and documented blow-by on STS-51-C. NASA project managers contest the recommendation, demanding engineers prove the joint will fail. In an offline caucus, contractor management overrules engineering dissent to meet tight launch windows, proceeding without low-temperature qualification data."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-CF362933",
+      "action": "ACKNOWLEDGED",
+      "engineer_notes": "Board acknowledged Challenger precedent.",
+      "recorded_at": "2026-08-14T06:37:39.368080Z"
+    }
+  },
+  {
+    "session_id": "SESS-7257654A",
+    "created_at": "2026-08-14T06:38:01.019448Z",
+    "updated_at": "2026-08-14T06:38:01.021620Z",
+    "submitter": {
+      "role": "Lead Flight Director",
+      "review_board": "Mission Management Team"
+    },
+    "input": {
+      "title": "Orbital Separation Thermal Survey",
+      "mission_context": "On-Orbit Anomaly Assessment",
+      "raw_description": "Inspection camera shows thermal blanket damage."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-7257654A",
+      "action": "ACKNOWLEDGED",
+      "engineer_notes": "Board reviewed Challenger and Atlantis precedents; contingency reentry profile approved.",
+      "recorded_at": "2026-08-14T06:38:01.021620Z"
+    }
+  },
+  {
+    "session_id": "SESS-16A06621",
+    "created_at": "2026-08-14T06:38:01.033743Z",
+    "updated_at": "2026-08-14T06:38:01.035385Z",
+    "submitter": {
+      "role": "Engineer",
+      "review_board": "Test Board"
+    },
+    "input": {
+      "title": "Persistence Test Session",
+      "mission_context": "Testing",
+      "raw_description": "Testing session persistence across reloads."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-16A06621",
+      "action": "DISMISSED",
+      "engineer_notes": "Test persistence",
+      "recorded_at": "2026-08-14T06:38:01.035385Z"
+    }
+  },
+  {
+    "session_id": "SESS-5DD2B171",
+    "created_at": "2026-08-14T06:38:01.041383Z",
+    "updated_at": "2026-08-14T06:38:01.042807Z",
+    "submitter": {
+      "role": "Chief Engineer / Mission Director",
+      "review_board": "Flight Readiness Review Board"
+    },
+    "input": {
+      "title": "Solid Rocket Booster O-Ring Low Temperature Launch Clearance",
+      "mission_context": "STS Flight Readiness Review (FRR) \u2014 Level III / Level IV",
+      "raw_description": "During the pre-launch teleconference at Launch Complex 39B, forecasted overnight ambient temperature is 29\u00b0F, far below the demonstrated test limit of 53\u00b0F. Propulsion contractor engineers formally recommend NO LAUNCH due to primary O-ring resiliency data and documented blow-by on STS-51-C. NASA project managers contest the recommendation, demanding engineers prove the joint will fail. In an offline caucus, contractor management overrules engineering dissent to meet tight launch windows, proceeding without low-temperature qualification data."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-5DD2B171",
+      "action": "ACKNOWLEDGED",
+      "engineer_notes": "Board acknowledged Challenger precedent.",
+      "recorded_at": "2026-08-14T06:38:01.042807Z"
+    }
+  },
+  {
+    "session_id": "SESS-B276A8A4",
+    "created_at": "2026-08-14T07:26:30.430831Z",
+    "updated_at": "2026-08-14T07:26:30.433631Z",
+    "submitter": {
+      "role": "Lead Flight Director",
+      "review_board": "Mission Management Team"
+    },
+    "input": {
+      "title": "Orbital Separation Thermal Survey",
+      "mission_context": "On-Orbit Anomaly Assessment",
+      "raw_description": "Inspection camera shows thermal blanket damage."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-B276A8A4",
+      "action": "ACKNOWLEDGED",
+      "engineer_notes": "Board reviewed Challenger and Atlantis precedents; contingency reentry profile approved.",
+      "recorded_at": "2026-08-14T07:26:30.433631Z"
+    }
+  },
+  {
+    "session_id": "SESS-247F7C41",
+    "created_at": "2026-08-14T07:26:30.446686Z",
+    "updated_at": "2026-08-14T07:26:30.448128Z",
+    "submitter": {
+      "role": "Engineer",
+      "review_board": "Test Board"
+    },
+    "input": {
+      "title": "Persistence Test Session",
+      "mission_context": "Testing",
+      "raw_description": "Testing session persistence across reloads."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-247F7C41",
+      "action": "DISMISSED",
+      "engineer_notes": "Test persistence",
+      "recorded_at": "2026-08-14T07:26:30.448128Z"
+    }
+  },
+  {
+    "session_id": "SESS-1CCE1837",
+    "created_at": "2026-08-14T07:26:30.455337Z",
+    "updated_at": "2026-08-14T07:26:30.456926Z",
+    "submitter": {
+      "role": "Chief Engineer / Mission Director",
+      "review_board": "Flight Readiness Review Board"
+    },
+    "input": {
+      "title": "Solid Rocket Booster O-Ring Low Temperature Launch Clearance",
+      "mission_context": "STS Flight Readiness Review (FRR) \u2014 Level III / Level IV",
+      "raw_description": "During the pre-launch teleconference at Launch Complex 39B, forecasted overnight ambient temperature is 29\u00b0F, far below the demonstrated test limit of 53\u00b0F. Propulsion contractor engineers formally recommend NO LAUNCH due to primary O-ring resiliency data and documented blow-by on STS-51-C. NASA project managers contest the recommendation, demanding engineers prove the joint will fail. In an offline caucus, contractor management overrules engineering dissent to meet tight launch windows, proceeding without low-temperature qualification data."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-1CCE1837",
+      "action": "ACKNOWLEDGED",
+      "engineer_notes": "Board acknowledged Challenger precedent.",
+      "recorded_at": "2026-08-14T07:26:30.456926Z"
+    }
+  },
+  {
+    "session_id": "SESS-D2207A0F",
+    "created_at": "2026-08-14T07:27:49.246327Z",
+    "updated_at": "2026-08-14T07:27:49.249019Z",
+    "submitter": {
+      "role": "Lead Flight Director",
+      "review_board": "Mission Management Team"
+    },
+    "input": {
+      "title": "Orbital Separation Thermal Survey",
+      "mission_context": "On-Orbit Anomaly Assessment",
+      "raw_description": "Inspection camera shows thermal blanket damage."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-D2207A0F",
+      "action": "ACKNOWLEDGED",
+      "engineer_notes": "Board reviewed Challenger and Atlantis precedents; contingency reentry profile approved.",
+      "recorded_at": "2026-08-14T07:27:49.249019Z"
+    }
+  },
+  {
+    "session_id": "SESS-8EC65D1A",
+    "created_at": "2026-08-14T07:27:49.259428Z",
+    "updated_at": "2026-08-14T07:27:49.261070Z",
+    "submitter": {
+      "role": "Engineer",
+      "review_board": "Test Board"
+    },
+    "input": {
+      "title": "Persistence Test Session",
+      "mission_context": "Testing",
+      "raw_description": "Testing session persistence across reloads."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-8EC65D1A",
+      "action": "DISMISSED",
+      "engineer_notes": "Test persistence",
+      "recorded_at": "2026-08-14T07:27:49.261070Z"
+    }
+  },
+  {
+    "session_id": "SESS-F72196C8",
+    "created_at": "2026-08-14T07:27:49.266138Z",
+    "updated_at": "2026-08-14T07:27:49.267697Z",
+    "submitter": {
+      "role": "Chief Engineer / Mission Director",
+      "review_board": "Flight Readiness Review Board"
+    },
+    "input": {
+      "title": "Solid Rocket Booster O-Ring Low Temperature Launch Clearance",
+      "mission_context": "STS Flight Readiness Review (FRR) \u2014 Level III / Level IV",
+      "raw_description": "During the pre-launch teleconference at Launch Complex 39B, forecasted overnight ambient temperature is 29\u00b0F, far below the demonstrated test limit of 53\u00b0F. Propulsion contractor engineers formally recommend NO LAUNCH due to primary O-ring resiliency data and documented blow-by on STS-51-C. NASA project managers contest the recommendation, demanding engineers prove the joint will fail. In an offline caucus, contractor management overrules engineering dissent to meet tight launch windows, proceeding without low-temperature qualification data."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-F72196C8",
+      "action": "ACKNOWLEDGED",
+      "engineer_notes": "Board acknowledged Challenger precedent.",
+      "recorded_at": "2026-08-14T07:27:49.267697Z"
+    }
+  },
+  {
+    "session_id": "SESS-218736F4",
+    "created_at": "2026-08-14T07:33:07.084853Z",
+    "updated_at": "2026-08-14T07:33:07.086924Z",
+    "submitter": {
+      "role": "Lead Flight Director",
+      "review_board": "Mission Management Team"
+    },
+    "input": {
+      "title": "Orbital Separation Thermal Survey",
+      "mission_context": "On-Orbit Anomaly Assessment",
+      "raw_description": "Inspection camera shows thermal blanket damage."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-218736F4",
+      "action": "ACKNOWLEDGED",
+      "engineer_notes": "Board reviewed Challenger and Atlantis precedents; contingency reentry profile approved.",
+      "recorded_at": "2026-08-14T07:33:07.086924Z"
+    }
+  },
+  {
+    "session_id": "SESS-3F545383",
+    "created_at": "2026-08-14T07:33:07.097040Z",
+    "updated_at": "2026-08-14T07:33:07.098928Z",
+    "submitter": {
+      "role": "Engineer",
+      "review_board": "Test Board"
+    },
+    "input": {
+      "title": "Persistence Test Session",
+      "mission_context": "Testing",
+      "raw_description": "Testing session persistence across reloads."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-3F545383",
+      "action": "DISMISSED",
+      "engineer_notes": "Test persistence",
+      "recorded_at": "2026-08-14T07:33:07.098928Z"
+    }
+  },
+  {
+    "session_id": "SESS-25DE6F39",
+    "created_at": "2026-08-14T07:33:07.104450Z",
+    "updated_at": "2026-08-14T07:33:07.106062Z",
+    "submitter": {
+      "role": "Chief Engineer / Mission Director",
+      "review_board": "Flight Readiness Review Board"
+    },
+    "input": {
+      "title": "Solid Rocket Booster O-Ring Low Temperature Launch Clearance",
+      "mission_context": "STS Flight Readiness Review (FRR) \u2014 Level III / Level IV",
+      "raw_description": "During the pre-launch teleconference at Launch Complex 39B, forecasted overnight ambient temperature is 29\u00b0F, far below the demonstrated test limit of 53\u00b0F. Propulsion contractor engineers formally recommend NO LAUNCH due to primary O-ring resiliency data and documented blow-by on STS-51-C. NASA project managers contest the recommendation, demanding engineers prove the joint will fail. In an offline caucus, contractor management overrules engineering dissent to meet tight launch windows, proceeding without low-temperature qualification data."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-25DE6F39",
+      "action": "ACKNOWLEDGED",
+      "engineer_notes": "Board acknowledged Challenger precedent.",
+      "recorded_at": "2026-08-14T07:33:07.106062Z"
+    }
+  },
+  {
+    "session_id": "SESS-937C18EE",
+    "created_at": "2026-08-14T07:59:30.511403Z",
+    "updated_at": "2026-08-14T07:59:30.516353Z",
+    "submitter": {
+      "role": "Lead Flight Director",
+      "review_board": "Mission Management Team"
+    },
+    "input": {
+      "title": "Orbital Separation Thermal Survey",
+      "mission_context": "On-Orbit Anomaly Assessment",
+      "raw_description": "Inspection camera shows thermal blanket damage."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-937C18EE",
+      "action": "ACKNOWLEDGED",
+      "engineer_notes": "Board reviewed Challenger and Atlantis precedents; contingency reentry profile approved.",
+      "recorded_at": "2026-08-14T07:59:30.516353Z"
+    }
+  },
+  {
+    "session_id": "SESS-DE4ECE82",
+    "created_at": "2026-08-14T07:59:39.554210Z",
+    "updated_at": "2026-08-14T07:59:39.560759Z",
+    "submitter": {
+      "role": "Engineer",
+      "review_board": "Test Board"
+    },
+    "input": {
+      "title": "Persistence Test Session",
+      "mission_context": "Testing",
+      "raw_description": "Testing session persistence across reloads."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-DE4ECE82",
+      "action": "DISMISSED",
+      "engineer_notes": "Test persistence",
+      "recorded_at": "2026-08-14T07:59:39.560759Z"
+    }
+  },
+  {
+    "session_id": "SESS-9A52F265",
+    "created_at": "2026-08-14T07:59:55.344138Z",
+    "updated_at": "2026-08-14T07:59:55.357542Z",
+    "submitter": {
+      "role": "Chief Engineer / Mission Director",
+      "review_board": "Flight Readiness Review Board"
+    },
+    "input": {
+      "title": "Solid Rocket Booster O-Ring Low Temperature Launch Clearance",
+      "mission_context": "STS Flight Readiness Review (FRR) \u2014 Level III / Level IV",
+      "raw_description": "During the pre-launch teleconference at Launch Complex 39B, forecasted overnight ambient temperature is 29\u00b0F, far below the demonstrated test limit of 53\u00b0F. Propulsion contractor engineers formally recommend NO LAUNCH due to primary O-ring resiliency data and documented blow-by on STS-51-C. NASA project managers contest the recommendation, demanding engineers prove the joint will fail. In an offline caucus, contractor management overrules engineering dissent to meet tight launch windows, proceeding without low-temperature qualification data."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-9A52F265",
+      "action": "ACKNOWLEDGED",
+      "engineer_notes": "Board acknowledged Challenger precedent.",
+      "recorded_at": "2026-08-14T07:59:55.357542Z"
+    }
+  },
+  {
+    "session_id": "SESS-095BB677",
+    "created_at": "2026-08-14T12:47:23.387628Z",
+    "updated_at": "2026-08-14T12:47:23.394803Z",
+    "submitter": {
+      "role": "Lead Flight Director",
+      "review_board": "Mission Management Team"
+    },
+    "input": {
+      "title": "Orbital Separation Thermal Survey",
+      "mission_context": "On-Orbit Anomaly Assessment",
+      "raw_description": "Inspection camera shows thermal blanket damage."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-095BB677",
+      "action": "ACKNOWLEDGED",
+      "engineer_notes": "Board reviewed Challenger and Atlantis precedents; contingency reentry profile approved.",
+      "recorded_at": "2026-08-14T12:47:23.394803Z"
+    }
+  },
+  {
+    "session_id": "SESS-64465441",
+    "created_at": "2026-08-14T12:47:34.738395Z",
+    "updated_at": "2026-08-14T12:47:34.744372Z",
+    "submitter": {
+      "role": "Engineer",
+      "review_board": "Test Board"
+    },
+    "input": {
+      "title": "Persistence Test Session",
+      "mission_context": "Testing",
+      "raw_description": "Testing session persistence across reloads."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-64465441",
+      "action": "DISMISSED",
+      "engineer_notes": "Test persistence",
+      "recorded_at": "2026-08-14T12:47:34.744372Z"
+    }
+  },
+  {
+    "session_id": "SESS-FEAE2B18",
+    "created_at": "2026-08-14T13:56:24.172251Z",
+    "updated_at": "2026-08-14T13:56:24.180221Z",
+    "submitter": {
+      "role": "Lead Flight Director",
+      "review_board": "Mission Management Team"
+    },
+    "input": {
+      "title": "Orbital Separation Thermal Survey",
+      "mission_context": "On-Orbit Anomaly Assessment",
+      "raw_description": "Inspection camera shows thermal blanket damage."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-FEAE2B18",
+      "action": "ACKNOWLEDGED",
+      "engineer_notes": "Board reviewed Challenger and Atlantis precedents; contingency reentry profile approved.",
+      "recorded_at": "2026-08-14T13:56:24.180221Z"
+    }
+  },
+  {
+    "session_id": "SESS-C63A0BE3",
+    "created_at": "2026-08-14T13:56:24.505661Z",
+    "updated_at": "2026-08-14T13:56:24.507896Z",
+    "submitter": {
+      "role": "Engineer",
+      "review_board": "Test Board"
+    },
+    "input": {
+      "title": "Persistence Test Session",
+      "mission_context": "Testing",
+      "raw_description": "Testing session persistence across reloads."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-C63A0BE3",
+      "action": "DISMISSED",
+      "engineer_notes": "Test persistence",
+      "recorded_at": "2026-08-14T13:56:24.507896Z"
+    }
+  },
+  {
+    "session_id": "SESS-283CB1D4",
+    "created_at": "2026-08-15T04:57:06.031157Z",
+    "updated_at": "2026-08-15T04:57:06.037412Z",
+    "submitter": {
+      "role": "Lead Flight Director",
+      "review_board": "Mission Management Team"
+    },
+    "input": {
+      "title": "Orbital Separation Thermal Survey",
+      "mission_context": "On-Orbit Anomaly Assessment",
+      "raw_description": "Inspection camera shows thermal blanket damage."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-283CB1D4",
+      "action": "ACKNOWLEDGED",
+      "engineer_notes": "Board reviewed Challenger and Atlantis precedents; contingency reentry profile approved.",
+      "recorded_at": "2026-08-15T04:57:06.037412Z"
+    }
+  },
+  {
+    "session_id": "SESS-FF43D8CD",
+    "created_at": "2026-08-15T04:57:06.577109Z",
+    "updated_at": "2026-08-15T04:57:06.583953Z",
+    "submitter": {
+      "role": "Engineer",
+      "review_board": "Test Board"
+    },
+    "input": {
+      "title": "Persistence Test Session",
+      "mission_context": "Testing",
+      "raw_description": "Testing session persistence across reloads."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-FF43D8CD",
+      "action": "DISMISSED",
+      "engineer_notes": "Test persistence",
+      "recorded_at": "2026-08-15T04:57:06.583953Z"
+    }
+  },
+  {
+    "session_id": "SESS-987E8061",
+    "created_at": "2026-08-15T05:01:43.905404Z",
+    "updated_at": "2026-08-15T05:01:43.905404Z",
+    "submitter": {
+      "role": "Chief Engineer / Mission Director",
+      "review_board": "Flight Readiness Review Board"
+    },
+    "input": {
+      "title": "Solid Rocket Booster O-Ring Low Temperature Launch Clearance",
+      "mission_context": "STS Flight Readiness Review (FRR) \u2014 Level III / Level IV",
+      "raw_description": "During the pre-launch teleconference at Launch Complex 39B, forecasted overnight ambient temperature is 29\u00b0F, far below the demonstrated test limit of 53\u00b0F. Propulsion contractor engineers formally recommend NO LAUNCH due to primary O-ring resiliency data and documented blow-by on STS-51-C. NASA project managers contest the recommendation, demanding engineers prove the joint will fail. In an offline caucus, contractor management overrules engineering dissent to meet tight planetary launch windows, proceeding without low-temperature qualification data."
+    },
+    "extracted_factors": {
+      "known_unresolved_issue": {
+        "factor_id": "known_unresolved_issue",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "safety_margin_degraded": {
+        "factor_id": "safety_margin_degraded",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "schedule_pressure": {
+        "factor_id": "schedule_pressure",
+        "value": "HIGH",
+        "extracted_value": "HIGH",
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "external_conditions_marginal": {
+        "factor_id": "external_conditions_marginal",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "dissent_raised_and_overridden": {
+        "factor_id": "dissent_raised_and_overridden",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "missing_evidence_acknowledged": {
+        "factor_id": "missing_evidence_acknowledged",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "prior_normalization_of_risk": {
+        "factor_id": "prior_normalization_of_risk",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "independent_review_skipped": {
+        "factor_id": "independent_review_skipped",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      }
+    },
+    "analysis_result": null,
+    "audit_action": null
+  },
+  {
+    "session_id": "SESS-1D16A166",
+    "created_at": "2026-08-15T05:41:28.613892Z",
+    "updated_at": "2026-08-15T05:41:28.613892Z",
+    "submitter": {
+      "role": "Chief Engineer / Mission Director",
+      "review_board": "Flight Readiness Review Board"
+    },
+    "input": {
+      "title": "Solid Rocket Booster O-Ring Low Temperature Launch Clearance",
+      "mission_context": "STS Flight Readiness Review (FRR) \u2014 Level III / Level IV",
+      "raw_description": "During the pre-launch teleconference at Launch Complex 39B, forecasted overnight ambient temperature is 29\u00b0F, far below the demonstrated test limit of 53\u00b0F. Propulsion contractor engineers formally recommend NO LAUNCH due to primary O-ring resiliency data and documented blow-by on STS-51-C. NASA project managers contest the recommendation, demanding engineers prove the joint will fail. In an offline caucus, contractor management overrules engineering dissent to meet tight planetary launch windows, proceeding without low-temperature qualification data."
+    },
+    "extracted_factors": {
+      "known_unresolved_issue": {
+        "factor_id": "known_unresolved_issue",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "safety_margin_degraded": {
+        "factor_id": "safety_margin_degraded",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "schedule_pressure": {
+        "factor_id": "schedule_pressure",
+        "value": "HIGH",
+        "extracted_value": "HIGH",
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "external_conditions_marginal": {
+        "factor_id": "external_conditions_marginal",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "dissent_raised_and_overridden": {
+        "factor_id": "dissent_raised_and_overridden",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "missing_evidence_acknowledged": {
+        "factor_id": "missing_evidence_acknowledged",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "prior_normalization_of_risk": {
+        "factor_id": "prior_normalization_of_risk",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "independent_review_skipped": {
+        "factor_id": "independent_review_skipped",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      }
+    },
+    "analysis_result": null,
+    "audit_action": null
+  },
+  {
+    "session_id": "SESS-C857A18E",
+    "created_at": "2026-08-15T06:10:14.380619Z",
+    "updated_at": "2026-08-15T06:10:14.387514Z",
+    "submitter": {
+      "role": "Lead Flight Director",
+      "review_board": "Mission Management Team"
+    },
+    "input": {
+      "title": "Orbital Separation Thermal Survey",
+      "mission_context": "On-Orbit Anomaly Assessment",
+      "raw_description": "Inspection camera shows thermal blanket damage."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-C857A18E",
+      "action": "ACKNOWLEDGED",
+      "engineer_notes": "Board reviewed Challenger and Atlantis precedents; contingency reentry profile approved.",
+      "recorded_at": "2026-08-15T06:10:14.387514Z"
+    }
+  },
+  {
+    "session_id": "SESS-592B5AAB",
+    "created_at": "2026-08-15T06:10:22.146930Z",
+    "updated_at": "2026-08-15T06:10:22.153158Z",
+    "submitter": {
+      "role": "Engineer",
+      "review_board": "Test Board"
+    },
+    "input": {
+      "title": "Persistence Test Session",
+      "mission_context": "Testing",
+      "raw_description": "Testing session persistence across reloads."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-592B5AAB",
+      "action": "DISMISSED",
+      "engineer_notes": "Test persistence",
+      "recorded_at": "2026-08-15T06:10:22.153158Z"
+    }
+  },
+  {
+    "session_id": "SESS-79781376",
+    "created_at": "2026-08-15T06:10:44.374408Z",
+    "updated_at": "2026-08-15T06:10:44.382699Z",
+    "submitter": {
+      "role": "Chief Engineer / Mission Director",
+      "review_board": "Flight Readiness Review Board"
+    },
+    "input": {
+      "title": "Solid Rocket Booster O-Ring Low Temperature Launch Clearance",
+      "mission_context": "STS Flight Readiness Review (FRR) \u2014 Level III / Level IV",
+      "raw_description": "During the pre-launch teleconference at Launch Complex 39B, forecasted overnight ambient temperature is 29\u00b0F, far below the demonstrated test limit of 53\u00b0F. Propulsion contractor engineers formally recommend NO LAUNCH due to primary O-ring resiliency data and documented blow-by on STS-51-C. NASA project managers contest the recommendation, demanding engineers prove the joint will fail. In an offline caucus, contractor management overrules engineering dissent to meet tight launch windows, proceeding without low-temperature qualification data."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-79781376",
+      "action": "ACKNOWLEDGED",
+      "engineer_notes": "Board acknowledged Challenger precedent.",
+      "recorded_at": "2026-08-15T06:10:44.382699Z"
+    }
+  },
+  {
+    "session_id": "SESS-53B2F4B4",
+    "created_at": "2026-08-15T06:36:42.524872Z",
+    "updated_at": "2026-08-15T06:36:42.524872Z",
+    "submitter": {
+      "role": "Chief Engineer / Mission Director",
+      "review_board": "Flight Readiness Review Board"
+    },
+    "input": {
+      "title": "Solid Rocket Booster O-Ring Low Temperature Launch Clearance",
+      "mission_context": "STS Flight Readiness Review (FRR) \u2014 Level III / Level IV",
+      "raw_description": "During the pre-launch teleconference at Launch Complex 39B, forecasted overnight ambient temperature is 29\u00b0F, far below the demonstrated test limit of 53\u00b0F. Propulsion contractor engineers formally recommend NO LAUNCH due to primary O-ring resiliency data and documented blow-by on STS-51-C. NASA project managers contest the recommendation, demanding engineers prove the joint will fail. In an offline caucus, contractor management overrules engineering dissent to meet tight planetary launch windows, proceeding without low-temperature qualification data."
+    },
+    "extracted_factors": {
+      "known_unresolved_issue": {
+        "factor_id": "known_unresolved_issue",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "safety_margin_degraded": {
+        "factor_id": "safety_margin_degraded",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "schedule_pressure": {
+        "factor_id": "schedule_pressure",
+        "value": "HIGH",
+        "extracted_value": "HIGH",
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "external_conditions_marginal": {
+        "factor_id": "external_conditions_marginal",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "dissent_raised_and_overridden": {
+        "factor_id": "dissent_raised_and_overridden",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "missing_evidence_acknowledged": {
+        "factor_id": "missing_evidence_acknowledged",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "prior_normalization_of_risk": {
+        "factor_id": "prior_normalization_of_risk",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "independent_review_skipped": {
+        "factor_id": "independent_review_skipped",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      }
+    },
+    "analysis_result": null,
+    "audit_action": null
+  },
+  {
+    "session_id": "SESS-499A6849",
+    "created_at": "2026-08-15T07:21:20.460654Z",
+    "updated_at": "2026-08-15T07:21:20.460654Z",
+    "submitter": {
+      "role": "Chief Engineer / Mission Director",
+      "review_board": "Flight Readiness Review Board"
+    },
+    "input": {
+      "title": "Solid Rocket Booster O-Ring Low Temperature Launch Clearance",
+      "mission_context": "STS Flight Readiness Review (FRR) \u2014 Level III / Level IV",
+      "raw_description": "During the pre-launch teleconference at Launch Complex 39B, forecasted overnight ambient temperature is 29\u00b0F, far below the demonstrated test limit of 53\u00b0F. Propulsion contractor engineers formally recommend NO LAUNCH due to primary O-ring resiliency data and documented blow-by on STS-51-C. NASA project managers contest the recommendation, demanding engineers prove the joint will fail. In an offline caucus, contractor management overrules engineering dissent to meet tight planetary launch windows, proceeding without low-temperature qualification data."
+    },
+    "extracted_factors": {
+      "known_unresolved_issue": {
+        "factor_id": "known_unresolved_issue",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "safety_margin_degraded": {
+        "factor_id": "safety_margin_degraded",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "schedule_pressure": {
+        "factor_id": "schedule_pressure",
+        "value": "HIGH",
+        "extracted_value": "HIGH",
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "external_conditions_marginal": {
+        "factor_id": "external_conditions_marginal",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "dissent_raised_and_overridden": {
+        "factor_id": "dissent_raised_and_overridden",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "missing_evidence_acknowledged": {
+        "factor_id": "missing_evidence_acknowledged",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "prior_normalization_of_risk": {
+        "factor_id": "prior_normalization_of_risk",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "independent_review_skipped": {
+        "factor_id": "independent_review_skipped",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      }
+    },
+    "analysis_result": null,
+    "audit_action": null
+  },
+  {
+    "session_id": "SESS-3DBA4207",
+    "created_at": "2026-08-15T07:25:50.100477Z",
+    "updated_at": "2026-08-15T07:25:50.100477Z",
+    "submitter": {
+      "role": "Chief Engineer / Mission Director",
+      "review_board": "Flight Readiness Review Board"
+    },
+    "input": {
+      "title": "Solid Rocket Booster O-Ring Low Temperature Launch Clearance",
+      "mission_context": "STS Flight Readiness Review (FRR) \u2014 Level III / Level IV",
+      "raw_description": "During the pre-launch teleconference at Launch Complex 39B, forecasted overnight ambient temperature is 29\u00b0F, far below the demonstrated test limit of 53\u00b0F. Propulsion contractor engineers formally recommend NO LAUNCH due to primary O-ring resiliency data and documented blow-by on STS-51-C. NASA project managers contest the recommendation, demanding engineers prove the joint will fail. In an offline caucus, contractor management overrules engineering dissent to meet tight planetary launch windows, proceeding without low-temperature qualification data."
+    },
+    "extracted_factors": {
+      "known_unresolved_issue": {
+        "factor_id": "known_unresolved_issue",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "safety_margin_degraded": {
+        "factor_id": "safety_margin_degraded",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "schedule_pressure": {
+        "factor_id": "schedule_pressure",
+        "value": "HIGH",
+        "extracted_value": "HIGH",
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "external_conditions_marginal": {
+        "factor_id": "external_conditions_marginal",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "dissent_raised_and_overridden": {
+        "factor_id": "dissent_raised_and_overridden",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "missing_evidence_acknowledged": {
+        "factor_id": "missing_evidence_acknowledged",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "prior_normalization_of_risk": {
+        "factor_id": "prior_normalization_of_risk",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "independent_review_skipped": {
+        "factor_id": "independent_review_skipped",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      }
+    },
+    "analysis_result": null,
+    "audit_action": null
+  },
+  {
+    "session_id": "SESS-E6351909",
+    "created_at": "2026-08-16T05:10:10.993544Z",
+    "updated_at": "2026-08-16T05:10:10.993544Z",
+    "submitter": {
+      "role": "Chief Engineer / Mission Director",
+      "review_board": "Flight Readiness Review Board"
+    },
+    "input": {
+      "title": "Solid Rocket Booster O-Ring Low Temperature Launch Clearance",
+      "mission_context": "STS Flight Readiness Review (FRR) \u2014 Level III / Level IV",
+      "raw_description": "During the pre-launch teleconference at Launch Complex 39B, forecasted overnight ambient temperature is 29\u00b0F, far below the demonstrated test limit of 53\u00b0F. Propulsion contractor engineers formally recommend NO LAUNCH due to primary O-ring resiliency data and documented blow-by on STS-51-C. NASA project managers contest the recommendation, demanding engineers prove the joint will fail. In an offline caucus, contractor management overrules engineering dissent to meet tight planetary launch windows, proceeding without low-temperature qualification data."
+    },
+    "extracted_factors": {
+      "known_unresolved_issue": {
+        "factor_id": "known_unresolved_issue",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "safety_margin_degraded": {
+        "factor_id": "safety_margin_degraded",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "schedule_pressure": {
+        "factor_id": "schedule_pressure",
+        "value": "HIGH",
+        "extracted_value": "HIGH",
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "external_conditions_marginal": {
+        "factor_id": "external_conditions_marginal",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "dissent_raised_and_overridden": {
+        "factor_id": "dissent_raised_and_overridden",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "missing_evidence_acknowledged": {
+        "factor_id": "missing_evidence_acknowledged",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "prior_normalization_of_risk": {
+        "factor_id": "prior_normalization_of_risk",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "independent_review_skipped": {
+        "factor_id": "independent_review_skipped",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Default preset situation evidence.",
+        "is_user_modified": false,
+        "modification_reason": null
+      }
+    },
+    "analysis_result": null,
+    "audit_action": null
+  },
+  {
+    "session_id": "SESS-021E7160",
+    "created_at": "2026-08-16T05:51:19.637633Z",
+    "updated_at": "2026-08-16T05:51:19.637633Z",
+    "submitter": {
+      "role": "Chief Engineer / Mission Director",
+      "review_board": "Flight Readiness Review Board"
+    },
+    "input": {
+      "title": "External Tank Foam Strike Left Wing Leading Edge Assessment",
+      "mission_context": "Mission Management Team (MMT) \u2014 Flight Day 5 Review",
+      "raw_description": "Review of high-speed launch video reveals a 1.7-pound block of External Tank bipod ramp foam struck the left wing leading edge Reinforced Carbon-Carbon (RCC) panel at ~500 mph. The Debris Assessment Team requested high-resolution Department of Defense satellite imagery to inspect the wing underside. Mission Management Team leadership dismissed the imagery request as unnecessary, relying solely on Crater simulation algorithm outputs known to be uncalibrated for large foam projectiles, citing schedule urgency for ISS Node 2 launch milestones."
+    },
+    "extracted_factors": {
+      "known_unresolved_issue": {
+        "factor_id": "known_unresolved_issue",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Directly derived from On-Orbit Ascent Debris Damage Review scenario profile.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "safety_margin_degraded": {
+        "factor_id": "safety_margin_degraded",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Directly derived from On-Orbit Ascent Debris Damage Review scenario profile.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "schedule_pressure": {
+        "factor_id": "schedule_pressure",
+        "value": "HIGH",
+        "extracted_value": "HIGH",
+        "confidence": null,
+        "evidence_quote": "Directly derived from On-Orbit Ascent Debris Damage Review scenario profile.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "external_conditions_marginal": {
+        "factor_id": "external_conditions_marginal",
+        "value": false,
+        "extracted_value": false,
+        "confidence": null,
+        "evidence_quote": "Directly derived from On-Orbit Ascent Debris Damage Review scenario profile.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "dissent_raised_and_overridden": {
+        "factor_id": "dissent_raised_and_overridden",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Directly derived from On-Orbit Ascent Debris Damage Review scenario profile.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "missing_evidence_acknowledged": {
+        "factor_id": "missing_evidence_acknowledged",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Directly derived from On-Orbit Ascent Debris Damage Review scenario profile.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "prior_normalization_of_risk": {
+        "factor_id": "prior_normalization_of_risk",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Directly derived from On-Orbit Ascent Debris Damage Review scenario profile.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "independent_review_skipped": {
+        "factor_id": "independent_review_skipped",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Directly derived from On-Orbit Ascent Debris Damage Review scenario profile.",
+        "is_user_modified": false,
+        "modification_reason": null
+      }
+    },
+    "analysis_result": null,
+    "audit_action": null
+  },
+  {
+    "session_id": "SESS-8ADFFFF1",
+    "created_at": "2026-08-16T06:04:03.873344Z",
+    "updated_at": "2026-08-16T06:04:03.876778Z",
+    "submitter": {
+      "role": "Lead Flight Director",
+      "review_board": "Mission Management Team"
+    },
+    "input": {
+      "title": "Orbital Separation Thermal Survey",
+      "mission_context": "On-Orbit Anomaly Assessment",
+      "raw_description": "Inspection camera shows thermal blanket damage."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-8ADFFFF1",
+      "action": "ACKNOWLEDGED",
+      "engineer_notes": "Board reviewed Challenger and Atlantis precedents; contingency reentry profile approved.",
+      "recorded_at": "2026-08-16T06:04:03.876778Z"
+    }
+  },
+  {
+    "session_id": "SESS-BE15837F",
+    "created_at": "2026-08-16T06:04:03.890341Z",
+    "updated_at": "2026-08-16T06:04:03.893495Z",
+    "submitter": {
+      "role": "Engineer",
+      "review_board": "Test Board"
+    },
+    "input": {
+      "title": "Persistence Test Session",
+      "mission_context": "Testing",
+      "raw_description": "Testing session persistence across reloads."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-BE15837F",
+      "action": "DISMISSED",
+      "engineer_notes": "Test persistence",
+      "recorded_at": "2026-08-16T06:04:03.893495Z"
+    }
+  },
+  {
+    "session_id": "SESS-E65AACB1",
+    "created_at": "2026-08-16T06:04:03.900903Z",
+    "updated_at": "2026-08-16T06:04:03.903453Z",
+    "submitter": {
+      "role": "Chief Engineer / Mission Director",
+      "review_board": "Flight Readiness Review Board"
+    },
+    "input": {
+      "title": "Solid Rocket Booster O-Ring Low Temperature Launch Clearance",
+      "mission_context": "STS Flight Readiness Review (FRR) \u2014 Level III / Level IV",
+      "raw_description": "During the pre-launch teleconference at Launch Complex 39B, forecasted overnight ambient temperature is 29\u00b0F, far below the demonstrated test limit of 53\u00b0F. Propulsion contractor engineers formally recommend NO LAUNCH due to primary O-ring resiliency data and documented blow-by on STS-51-C. NASA project managers contest the recommendation, demanding engineers prove the joint will fail. In an offline caucus, contractor management overrules engineering dissent to meet tight launch windows, proceeding without low-temperature qualification data."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-E65AACB1",
+      "action": "ACKNOWLEDGED",
+      "engineer_notes": "Board acknowledged Challenger precedent.",
+      "recorded_at": "2026-08-16T06:04:03.903453Z"
+    }
+  },
+  {
+    "session_id": "SESS-38BD6C5B",
+    "created_at": "2026-08-16T06:09:42.703556Z",
+    "updated_at": "2026-08-16T06:09:42.703556Z",
+    "submitter": {
+      "role": "Chief Engineer / Mission Director",
+      "review_board": "Flight Readiness Review Board"
+    },
+    "input": {
+      "title": "Solid Rocket Booster O-Ring Low Temperature Launch Clearance",
+      "mission_context": "STS Flight Readiness Review (FRR) \u2014 Level III / Level IV",
+      "raw_description": "During the pre-launch teleconference at Launch Complex 39B, forecasted overnight ambient temperature is 29\u00b0F, far below the demonstrated test limit of 53\u00b0F. Propulsion contractor engineers formally recommend NO LAUNCH due to primary O-ring resiliency data and documented blow-by on STS-51-C. NASA project managers contest the recommendation, demanding engineers prove the joint will fail. In an offline caucus, contractor management overrules engineering dissent to meet tight planetary launch windows, proceeding without low-temperature qualification data."
+    },
+    "extracted_factors": {
+      "known_unresolved_issue": {
+        "factor_id": "known_unresolved_issue",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Directly derived from SRB Joint Low-Temperature Launch Review scenario profile.",
+        "is_user_modified": false,
+        "modification_reason": "Manually adjusted by reviewing engineer."
+      },
+      "safety_margin_degraded": {
+        "factor_id": "safety_margin_degraded",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Directly derived from SRB Joint Low-Temperature Launch Review scenario profile.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "schedule_pressure": {
+        "factor_id": "schedule_pressure",
+        "value": "HIGH",
+        "extracted_value": "HIGH",
+        "confidence": null,
+        "evidence_quote": "Directly derived from SRB Joint Low-Temperature Launch Review scenario profile.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "external_conditions_marginal": {
+        "factor_id": "external_conditions_marginal",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Directly derived from SRB Joint Low-Temperature Launch Review scenario profile.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "dissent_raised_and_overridden": {
+        "factor_id": "dissent_raised_and_overridden",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Directly derived from SRB Joint Low-Temperature Launch Review scenario profile.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "missing_evidence_acknowledged": {
+        "factor_id": "missing_evidence_acknowledged",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Directly derived from SRB Joint Low-Temperature Launch Review scenario profile.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "prior_normalization_of_risk": {
+        "factor_id": "prior_normalization_of_risk",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Directly derived from SRB Joint Low-Temperature Launch Review scenario profile.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "independent_review_skipped": {
+        "factor_id": "independent_review_skipped",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Directly derived from SRB Joint Low-Temperature Launch Review scenario profile.",
+        "is_user_modified": false,
+        "modification_reason": null
+      }
+    },
+    "analysis_result": null,
+    "audit_action": null
+  },
+  {
+    "session_id": "SESS-CDE941C7",
+    "created_at": "2026-08-16T06:16:50.615978Z",
+    "updated_at": "2026-08-16T06:16:50.619438Z",
+    "submitter": {
+      "role": "Lead Flight Director",
+      "review_board": "Mission Management Team"
+    },
+    "input": {
+      "title": "Orbital Separation Thermal Survey",
+      "mission_context": "On-Orbit Anomaly Assessment",
+      "raw_description": "Inspection camera shows thermal blanket damage."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-CDE941C7",
+      "action": "ACKNOWLEDGED",
+      "engineer_notes": "Board reviewed Challenger and Atlantis precedents; contingency reentry profile approved.",
+      "recorded_at": "2026-08-16T06:16:50.619438Z"
+    }
+  },
+  {
+    "session_id": "SESS-21406E9C",
+    "created_at": "2026-08-16T06:16:50.632780Z",
+    "updated_at": "2026-08-16T06:16:50.636075Z",
+    "submitter": {
+      "role": "Engineer",
+      "review_board": "Test Board"
+    },
+    "input": {
+      "title": "Persistence Test Session",
+      "mission_context": "Testing",
+      "raw_description": "Testing session persistence across reloads."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-21406E9C",
+      "action": "DISMISSED",
+      "engineer_notes": "Test persistence",
+      "recorded_at": "2026-08-16T06:16:50.636075Z"
+    }
+  },
+  {
+    "session_id": "SESS-1E1BFAB1",
+    "created_at": "2026-08-16T06:16:50.643273Z",
+    "updated_at": "2026-08-16T06:16:50.645796Z",
+    "submitter": {
+      "role": "Chief Engineer / Mission Director",
+      "review_board": "Flight Readiness Review Board"
+    },
+    "input": {
+      "title": "Solid Rocket Booster O-Ring Low Temperature Launch Clearance",
+      "mission_context": "STS Flight Readiness Review (FRR) \u2014 Level III / Level IV",
+      "raw_description": "During the pre-launch teleconference at Launch Complex 39B, forecasted overnight ambient temperature is 29\u00b0F, far below the demonstrated test limit of 53\u00b0F. Propulsion contractor engineers formally recommend NO LAUNCH due to primary O-ring resiliency data and documented blow-by on STS-51-C. NASA project managers contest the recommendation, demanding engineers prove the joint will fail. In an offline caucus, contractor management overrules engineering dissent to meet tight launch windows, proceeding without low-temperature qualification data."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-1E1BFAB1",
+      "action": "ACKNOWLEDGED",
+      "engineer_notes": "Board acknowledged Challenger precedent.",
+      "recorded_at": "2026-08-16T06:16:50.645796Z"
+    }
+  },
+  {
+    "session_id": "SESS-41BE763A",
+    "created_at": "2026-08-16T06:19:17.912608Z",
+    "updated_at": "2026-08-16T06:19:17.916310Z",
+    "submitter": {
+      "role": "Lead Flight Director",
+      "review_board": "Mission Management Team"
+    },
+    "input": {
+      "title": "Orbital Separation Thermal Survey",
+      "mission_context": "On-Orbit Anomaly Assessment",
+      "raw_description": "Inspection camera shows thermal blanket damage."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-41BE763A",
+      "action": "ACKNOWLEDGED",
+      "engineer_notes": "Board reviewed Challenger and Atlantis precedents; contingency reentry profile approved.",
+      "recorded_at": "2026-08-16T06:19:17.916310Z"
+    }
+  },
+  {
+    "session_id": "SESS-D6B66362",
+    "created_at": "2026-08-16T06:19:17.929546Z",
+    "updated_at": "2026-08-16T06:19:17.932733Z",
+    "submitter": {
+      "role": "Engineer",
+      "review_board": "Test Board"
+    },
+    "input": {
+      "title": "Persistence Test Session",
+      "mission_context": "Testing",
+      "raw_description": "Testing session persistence across reloads."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-D6B66362",
+      "action": "DISMISSED",
+      "engineer_notes": "Test persistence",
+      "recorded_at": "2026-08-16T06:19:17.932733Z"
+    }
+  },
+  {
+    "session_id": "SESS-C3A82352",
+    "created_at": "2026-08-16T06:19:17.939964Z",
+    "updated_at": "2026-08-16T06:19:17.942692Z",
+    "submitter": {
+      "role": "Chief Engineer / Mission Director",
+      "review_board": "Flight Readiness Review Board"
+    },
+    "input": {
+      "title": "Solid Rocket Booster O-Ring Low Temperature Launch Clearance",
+      "mission_context": "STS Flight Readiness Review (FRR) \u2014 Level III / Level IV",
+      "raw_description": "During the pre-launch teleconference at Launch Complex 39B, forecasted overnight ambient temperature is 29\u00b0F, far below the demonstrated test limit of 53\u00b0F. Propulsion contractor engineers formally recommend NO LAUNCH due to primary O-ring resiliency data and documented blow-by on STS-51-C. NASA project managers contest the recommendation, demanding engineers prove the joint will fail. In an offline caucus, contractor management overrules engineering dissent to meet tight launch windows, proceeding without low-temperature qualification data."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-C3A82352",
+      "action": "ACKNOWLEDGED",
+      "engineer_notes": "Board acknowledged Challenger precedent.",
+      "recorded_at": "2026-08-16T06:19:17.942692Z"
+    }
+  },
+  {
+    "session_id": "SESS-C7732A70",
+    "created_at": "2026-08-16T06:35:06.768082Z",
+    "updated_at": "2026-08-16T06:35:06.771710Z",
+    "submitter": {
+      "role": "Lead Flight Director",
+      "review_board": "Mission Management Team"
+    },
+    "input": {
+      "title": "Orbital Separation Thermal Survey",
+      "mission_context": "On-Orbit Anomaly Assessment",
+      "raw_description": "Inspection camera shows thermal blanket damage."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-C7732A70",
+      "action": "ACKNOWLEDGED",
+      "engineer_notes": "Board reviewed Challenger and Atlantis precedents; contingency reentry profile approved.",
+      "recorded_at": "2026-08-16T06:35:06.771710Z"
+    }
+  },
+  {
+    "session_id": "SESS-79765D7B",
+    "created_at": "2026-08-16T06:35:06.785312Z",
+    "updated_at": "2026-08-16T06:35:06.789043Z",
+    "submitter": {
+      "role": "Engineer",
+      "review_board": "Test Board"
+    },
+    "input": {
+      "title": "Persistence Test Session",
+      "mission_context": "Testing",
+      "raw_description": "Testing session persistence across reloads."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-79765D7B",
+      "action": "DISMISSED",
+      "engineer_notes": "Test persistence",
+      "recorded_at": "2026-08-16T06:35:06.789043Z"
+    }
+  },
+  {
+    "session_id": "SESS-0E5D6F8F",
+    "created_at": "2026-08-16T06:35:06.796205Z",
+    "updated_at": "2026-08-16T06:35:06.798870Z",
+    "submitter": {
+      "role": "Chief Engineer / Mission Director",
+      "review_board": "Flight Readiness Review Board"
+    },
+    "input": {
+      "title": "Solid Rocket Booster O-Ring Low Temperature Launch Clearance",
+      "mission_context": "STS Flight Readiness Review (FRR) \u2014 Level III / Level IV",
+      "raw_description": "During the pre-launch teleconference at Launch Complex 39B, forecasted overnight ambient temperature is 29\u00b0F, far below the demonstrated test limit of 53\u00b0F. Propulsion contractor engineers formally recommend NO LAUNCH due to primary O-ring resiliency data and documented blow-by on STS-51-C. NASA project managers contest the recommendation, demanding engineers prove the joint will fail. In an offline caucus, contractor management overrules engineering dissent to meet tight launch windows, proceeding without low-temperature qualification data."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-0E5D6F8F",
+      "action": "ACKNOWLEDGED",
+      "engineer_notes": "Board acknowledged Challenger precedent.",
+      "recorded_at": "2026-08-16T06:35:06.798870Z"
+    }
+  },
+  {
+    "session_id": "SESS-4FB632AE",
+    "created_at": "2026-08-16T07:12:35.421332Z",
+    "updated_at": "2026-08-16T07:12:35.427661Z",
+    "submitter": {
+      "role": "Lead Flight Director",
+      "review_board": "Mission Management Team"
+    },
+    "input": {
+      "title": "Orbital Separation Thermal Survey",
+      "mission_context": "On-Orbit Anomaly Assessment",
+      "raw_description": "Inspection camera shows thermal blanket damage."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-4FB632AE",
+      "action": "ACKNOWLEDGED",
+      "engineer_notes": "Board reviewed Challenger and Atlantis precedents; contingency reentry profile approved.",
+      "recorded_at": "2026-08-16T07:12:35.427661Z"
+    }
+  },
+  {
+    "session_id": "SESS-826EDCBC",
+    "created_at": "2026-08-16T07:12:42.484434Z",
+    "updated_at": "2026-08-16T07:12:42.495417Z",
+    "submitter": {
+      "role": "Engineer",
+      "review_board": "Test Board"
+    },
+    "input": {
+      "title": "Persistence Test Session",
+      "mission_context": "Testing",
+      "raw_description": "Testing session persistence across reloads."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-826EDCBC",
+      "action": "DISMISSED",
+      "engineer_notes": "Test persistence",
+      "recorded_at": "2026-08-16T07:12:42.495417Z"
+    }
+  },
+  {
+    "session_id": "SESS-03CDAFA5",
+    "created_at": "2026-08-16T07:13:01.903007Z",
+    "updated_at": "2026-08-16T07:13:01.912462Z",
+    "submitter": {
+      "role": "Chief Engineer / Mission Director",
+      "review_board": "Flight Readiness Review Board"
+    },
+    "input": {
+      "title": "Solid Rocket Booster O-Ring Low Temperature Launch Clearance",
+      "mission_context": "STS Flight Readiness Review (FRR) \u2014 Level III / Level IV",
+      "raw_description": "During the pre-launch teleconference at Launch Complex 39B, forecasted overnight ambient temperature is 29\u00b0F, far below the demonstrated test limit of 53\u00b0F. Propulsion contractor engineers formally recommend NO LAUNCH due to primary O-ring resiliency data and documented blow-by on STS-51-C. NASA project managers contest the recommendation, demanding engineers prove the joint will fail. In an offline caucus, contractor management overrules engineering dissent to meet tight launch windows, proceeding without low-temperature qualification data."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-03CDAFA5",
+      "action": "ACKNOWLEDGED",
+      "engineer_notes": "Board acknowledged Challenger precedent.",
+      "recorded_at": "2026-08-16T07:13:01.912462Z"
+    }
+  },
+  {
+    "session_id": "SESS-B944E48D",
+    "created_at": "2026-08-16T07:17:10.458363Z",
+    "updated_at": "2026-08-16T07:17:10.466054Z",
+    "submitter": {
+      "role": "Lead Flight Director",
+      "review_board": "Mission Management Team"
+    },
+    "input": {
+      "title": "Orbital Separation Thermal Survey",
+      "mission_context": "On-Orbit Anomaly Assessment",
+      "raw_description": "Inspection camera shows thermal blanket damage."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-B944E48D",
+      "action": "ACKNOWLEDGED",
+      "engineer_notes": "Board reviewed Challenger and Atlantis precedents; contingency reentry profile approved.",
+      "recorded_at": "2026-08-16T07:17:10.466054Z"
+    }
+  },
+  {
+    "session_id": "SESS-27345EC5",
+    "created_at": "2026-08-16T07:17:20.042964Z",
+    "updated_at": "2026-08-16T07:17:20.053462Z",
+    "submitter": {
+      "role": "Engineer",
+      "review_board": "Test Board"
+    },
+    "input": {
+      "title": "Persistence Test Session",
+      "mission_context": "Testing",
+      "raw_description": "Testing session persistence across reloads."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-27345EC5",
+      "action": "DISMISSED",
+      "engineer_notes": "Test persistence",
+      "recorded_at": "2026-08-16T07:17:20.053462Z"
+    }
+  },
+  {
+    "session_id": "SESS-D507D323",
+    "created_at": "2026-08-16T07:17:39.536483Z",
+    "updated_at": "2026-08-16T07:17:39.543599Z",
+    "submitter": {
+      "role": "Chief Engineer / Mission Director",
+      "review_board": "Flight Readiness Review Board"
+    },
+    "input": {
+      "title": "Solid Rocket Booster O-Ring Low Temperature Launch Clearance",
+      "mission_context": "STS Flight Readiness Review (FRR) \u2014 Level III / Level IV",
+      "raw_description": "During the pre-launch teleconference at Launch Complex 39B, forecasted overnight ambient temperature is 29\u00b0F, far below the demonstrated test limit of 53\u00b0F. Propulsion contractor engineers formally recommend NO LAUNCH due to primary O-ring resiliency data and documented blow-by on STS-51-C. NASA project managers contest the recommendation, demanding engineers prove the joint will fail. In an offline caucus, contractor management overrules engineering dissent to meet tight launch windows, proceeding without low-temperature qualification data."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-D507D323",
+      "action": "ACKNOWLEDGED",
+      "engineer_notes": "Board acknowledged Challenger precedent.",
+      "recorded_at": "2026-08-16T07:17:39.543599Z"
+    }
+  },
+  {
+    "session_id": "SESS-4E2DA3C2",
+    "created_at": "2026-08-16T07:21:47.899358Z",
+    "updated_at": "2026-08-16T07:21:47.908400Z",
+    "submitter": {
+      "role": "Lead Flight Director",
+      "review_board": "Mission Management Team"
+    },
+    "input": {
+      "title": "Orbital Separation Thermal Survey",
+      "mission_context": "On-Orbit Anomaly Assessment",
+      "raw_description": "Inspection camera shows thermal blanket damage."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-4E2DA3C2",
+      "action": "ACKNOWLEDGED",
+      "engineer_notes": "Board reviewed Challenger and Atlantis precedents; contingency reentry profile approved.",
+      "recorded_at": "2026-08-16T07:21:47.908400Z"
+    }
+  },
+  {
+    "session_id": "SESS-CB3E1DF2",
+    "created_at": "2026-08-16T07:21:58.988042Z",
+    "updated_at": "2026-08-16T07:21:58.999339Z",
+    "submitter": {
+      "role": "Engineer",
+      "review_board": "Test Board"
+    },
+    "input": {
+      "title": "Persistence Test Session",
+      "mission_context": "Testing",
+      "raw_description": "Testing session persistence across reloads."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-CB3E1DF2",
+      "action": "DISMISSED",
+      "engineer_notes": "Test persistence",
+      "recorded_at": "2026-08-16T07:21:58.999339Z"
+    }
+  },
+  {
+    "session_id": "SESS-2475FCF7",
+    "created_at": "2026-08-16T07:22:09.700633Z",
+    "updated_at": "2026-08-16T07:22:09.703853Z",
+    "submitter": {
+      "role": "Chief Engineer / Mission Director",
+      "review_board": "Flight Readiness Review Board"
+    },
+    "input": {
+      "title": "Solid Rocket Booster O-Ring Low Temperature Launch Clearance",
+      "mission_context": "STS Flight Readiness Review (FRR) \u2014 Level III / Level IV",
+      "raw_description": "During the pre-launch teleconference at Launch Complex 39B, forecasted overnight ambient temperature is 29\u00b0F, far below the demonstrated test limit of 53\u00b0F. Propulsion contractor engineers formally recommend NO LAUNCH due to primary O-ring resiliency data and documented blow-by on STS-51-C. NASA project managers contest the recommendation, demanding engineers prove the joint will fail. In an offline caucus, contractor management overrules engineering dissent to meet tight launch windows, proceeding without low-temperature qualification data."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-2475FCF7",
+      "action": "ACKNOWLEDGED",
+      "engineer_notes": "Board acknowledged Challenger precedent.",
+      "recorded_at": "2026-08-16T07:22:09.703853Z"
+    }
+  },
+  {
+    "session_id": "SESS-075A0701",
+    "created_at": "2026-08-16T07:55:25.615614Z",
+    "updated_at": "2026-08-16T07:55:25.624973Z",
+    "submitter": {
+      "role": "Lead Flight Director",
+      "review_board": "Mission Management Team"
+    },
+    "input": {
+      "title": "Orbital Separation Thermal Survey",
+      "mission_context": "On-Orbit Anomaly Assessment",
+      "raw_description": "Inspection camera shows thermal blanket damage."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-075A0701",
+      "action": "ACKNOWLEDGED",
+      "engineer_notes": "Board reviewed Challenger and Atlantis precedents; contingency reentry profile approved.",
+      "recorded_at": "2026-08-16T07:55:25.624973Z"
+    }
+  },
+  {
+    "session_id": "SESS-EFA660F1",
+    "created_at": "2026-08-16T07:55:26.696898Z",
+    "updated_at": "2026-08-16T07:55:26.708718Z",
+    "submitter": {
+      "role": "Engineer",
+      "review_board": "Test Board"
+    },
+    "input": {
+      "title": "Persistence Test Session",
+      "mission_context": "Testing",
+      "raw_description": "Testing session persistence across reloads."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-EFA660F1",
+      "action": "DISMISSED",
+      "engineer_notes": "Test persistence",
+      "recorded_at": "2026-08-16T07:55:26.708718Z"
+    }
+  },
+  {
+    "session_id": "SESS-6E821FE3",
+    "created_at": "2026-08-16T07:55:28.713797Z",
+    "updated_at": "2026-08-16T07:55:28.721920Z",
+    "submitter": {
+      "role": "Chief Engineer / Mission Director",
+      "review_board": "Flight Readiness Review Board"
+    },
+    "input": {
+      "title": "Solid Rocket Booster O-Ring Low Temperature Launch Clearance",
+      "mission_context": "STS Flight Readiness Review (FRR) \u2014 Level III / Level IV",
+      "raw_description": "During the pre-launch teleconference at Launch Complex 39B, forecasted overnight ambient temperature is 29\u00b0F, far below the demonstrated test limit of 53\u00b0F. Propulsion contractor engineers formally recommend NO LAUNCH due to primary O-ring resiliency data and documented blow-by on STS-51-C. NASA project managers contest the recommendation, demanding engineers prove the joint will fail. In an offline caucus, contractor management overrules engineering dissent to meet tight launch windows, proceeding without low-temperature qualification data."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-6E821FE3",
+      "action": "ACKNOWLEDGED",
+      "engineer_notes": "Board acknowledged Challenger precedent.",
+      "recorded_at": "2026-08-16T07:55:28.721920Z"
+    }
+  },
+  {
+    "session_id": "SESS-D348F78D",
+    "created_at": "2026-08-16T08:01:05.099198Z",
+    "updated_at": "2026-08-16T08:01:06.941330Z",
+    "submitter": {
+      "role": "Chief Engineer / Mission Director",
+      "review_board": "Flight Readiness Review Board"
+    },
+    "input": {
+      "title": "Aurora Flight 214 \u2014 Flight Control Anomaly Readiness Assessment",
+      "mission_context": "Aurora Aerospace Operations \u2014 Flight Readiness Review",
+      "raw_description": "During final approach, an unresolved flight-control anomaly was identified. The condition had been observed during earlier testing, while qualification evidence remained incomplete. Engineering recommended delaying operations for additional verification, but operations management elected to continue due to schedule constraints."
+    },
+    "extracted_factors": {
+      "known_unresolved_issue": {
+        "factor_id": "known_unresolved_issue",
+        "value": true,
+        "extracted_value": null,
+        "confidence": null,
+        "evidence_quote": null,
+        "is_user_modified": true,
+        "modification_reason": "Manually adjusted by reviewing engineer."
+      },
+      "safety_margin_degraded": {
+        "factor_id": "safety_margin_degraded",
+        "value": true,
+        "extracted_value": null,
+        "confidence": null,
+        "evidence_quote": null,
+        "is_user_modified": true,
+        "modification_reason": "Manually adjusted by reviewing engineer."
+      },
+      "schedule_pressure": {
+        "factor_id": "schedule_pressure",
+        "value": "MEDIUM",
+        "extracted_value": null,
+        "confidence": null,
+        "evidence_quote": null,
+        "is_user_modified": true,
+        "modification_reason": "Manually adjusted by reviewing engineer."
+      },
+      "external_conditions_marginal": {
+        "factor_id": "external_conditions_marginal",
+        "value": true,
+        "extracted_value": null,
+        "confidence": null,
+        "evidence_quote": null,
+        "is_user_modified": true,
+        "modification_reason": "Manually adjusted by reviewing engineer."
+      },
+      "dissent_raised_and_overridden": {
+        "factor_id": "dissent_raised_and_overridden",
+        "value": true,
+        "extracted_value": null,
+        "confidence": null,
+        "evidence_quote": null,
+        "is_user_modified": true,
+        "modification_reason": "Manually adjusted by reviewing engineer."
+      },
+      "missing_evidence_acknowledged": {
+        "factor_id": "missing_evidence_acknowledged",
+        "value": true,
+        "extracted_value": null,
+        "confidence": null,
+        "evidence_quote": null,
+        "is_user_modified": true,
+        "modification_reason": "Manually adjusted by reviewing engineer."
+      },
+      "prior_normalization_of_risk": {
+        "factor_id": "prior_normalization_of_risk",
+        "value": true,
+        "extracted_value": null,
+        "confidence": null,
+        "evidence_quote": null,
+        "is_user_modified": true,
+        "modification_reason": "Manually adjusted by reviewing engineer."
+      },
+      "independent_review_skipped": {
+        "factor_id": "independent_review_skipped",
+        "value": true,
+        "extracted_value": null,
+        "confidence": null,
+        "evidence_quote": null,
+        "is_user_modified": true,
+        "modification_reason": "Manually adjusted by reviewing engineer."
+      }
+    },
+    "analysis_result": {
+      "status": "PRECEDENT_FOUND",
+      "top_matched_case_names": [
+        "Space Shuttle Challenger (STS-51-L)"
+      ],
+      "overlap_score": 7.5,
+      "category_breadth": 4,
+      "counter_evidence_found": true
+    },
+    "audit_action": null
+  },
+  {
+    "session_id": "SESS-134A958F",
+    "created_at": "2026-08-16T08:08:38.611563Z",
+    "updated_at": "2026-08-16T08:08:38.620329Z",
+    "submitter": {
+      "role": "Lead Flight Director",
+      "review_board": "Mission Management Team"
+    },
+    "input": {
+      "title": "Orbital Separation Thermal Survey",
+      "mission_context": "On-Orbit Anomaly Assessment",
+      "raw_description": "Inspection camera shows thermal blanket damage."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-134A958F",
+      "action": "ACKNOWLEDGED",
+      "engineer_notes": "Board reviewed Challenger and Atlantis precedents; contingency reentry profile approved.",
+      "recorded_at": "2026-08-16T08:08:38.620329Z"
+    }
+  },
+  {
+    "session_id": "SESS-158776B2",
+    "created_at": "2026-08-16T08:08:39.659450Z",
+    "updated_at": "2026-08-16T08:08:39.668602Z",
+    "submitter": {
+      "role": "Engineer",
+      "review_board": "Test Board"
+    },
+    "input": {
+      "title": "Persistence Test Session",
+      "mission_context": "Testing",
+      "raw_description": "Testing session persistence across reloads."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-158776B2",
+      "action": "DISMISSED",
+      "engineer_notes": "Test persistence",
+      "recorded_at": "2026-08-16T08:08:39.668602Z"
+    }
+  },
+  {
+    "session_id": "SESS-18571059",
+    "created_at": "2026-08-16T08:08:41.505193Z",
+    "updated_at": "2026-08-16T08:08:41.512908Z",
+    "submitter": {
+      "role": "Chief Engineer / Mission Director",
+      "review_board": "Flight Readiness Review Board"
+    },
+    "input": {
+      "title": "Solid Rocket Booster O-Ring Low Temperature Launch Clearance",
+      "mission_context": "STS Flight Readiness Review (FRR) \u2014 Level III / Level IV",
+      "raw_description": "During the pre-launch teleconference at Launch Complex 39B, forecasted overnight ambient temperature is 29\u00b0F, far below the demonstrated test limit of 53\u00b0F. Propulsion contractor engineers formally recommend NO LAUNCH due to primary O-ring resiliency data and documented blow-by on STS-51-C. NASA project managers contest the recommendation, demanding engineers prove the joint will fail. In an offline caucus, contractor management overrules engineering dissent to meet tight launch windows, proceeding without low-temperature qualification data."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-18571059",
+      "action": "ACKNOWLEDGED",
+      "engineer_notes": "Board acknowledged Challenger precedent.",
+      "recorded_at": "2026-08-16T08:08:41.512908Z"
+    }
+  },
+  {
+    "session_id": "SESS-4133F2BD",
+    "created_at": "2026-08-16T08:10:23.663903Z",
+    "updated_at": "2026-08-16T08:10:23.678763Z",
+    "submitter": {
+      "role": "Engineer",
+      "review_board": "Safety Board"
+    },
+    "input": {
+      "title": "Tie Test Review",
+      "mission_context": "Testing Ties",
+      "raw_description": "We are testing ties."
+    },
+    "extracted_factors": {},
+    "analysis_result": {
+      "status": "PRECEDENT_FOUND",
+      "top_matched_case_names": [
+        "Space Shuttle Challenger (STS-51-L)"
+      ],
+      "overlap_score": 7.5,
+      "category_breadth": 4,
+      "counter_evidence_found": true
+    },
+    "audit_action": null
+  },
+  {
+    "session_id": "SESS-509F8343",
+    "created_at": "2026-08-17T05:12:41.521589Z",
+    "updated_at": "2026-08-17T05:12:42.492714Z",
+    "submitter": {
+      "role": "Chief Engineer / Mission Director",
+      "review_board": "Flight Readiness Review Board"
+    },
+    "input": {
+      "title": "External Tank Foam Strike Left Wing Leading Edge Assessment",
+      "mission_context": "Mission Management Team (MMT) \u2014 Flight Day 5 Review",
+      "raw_description": "Review of high-speed launch video reveals a 1.7-pound block of External Tank bipod ramp foam struck the left wing leading edge Reinforced Carbon-Carbon (RCC) panel at ~500 mph. The Debris Assessment Team requested high-resolution Department of Defense satellite imagery to inspect the wing underside. Mission Management Team leadership dismissed the imagery request as unnecessary, relying solely on Crater simulation algorithm outputs known to be uncalibrated for large foam projectiles, citing schedule urgency for ISS Node 2 launch milestones."
+    },
+    "extracted_factors": {
+      "known_unresolved_issue": {
+        "factor_id": "known_unresolved_issue",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Directly derived from On-Orbit Ascent Debris Damage Review scenario profile.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "safety_margin_degraded": {
+        "factor_id": "safety_margin_degraded",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Directly derived from On-Orbit Ascent Debris Damage Review scenario profile.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "schedule_pressure": {
+        "factor_id": "schedule_pressure",
+        "value": "HIGH",
+        "extracted_value": "HIGH",
+        "confidence": null,
+        "evidence_quote": "Directly derived from On-Orbit Ascent Debris Damage Review scenario profile.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "external_conditions_marginal": {
+        "factor_id": "external_conditions_marginal",
+        "value": false,
+        "extracted_value": false,
+        "confidence": null,
+        "evidence_quote": "Directly derived from On-Orbit Ascent Debris Damage Review scenario profile.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "dissent_raised_and_overridden": {
+        "factor_id": "dissent_raised_and_overridden",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Directly derived from On-Orbit Ascent Debris Damage Review scenario profile.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "missing_evidence_acknowledged": {
+        "factor_id": "missing_evidence_acknowledged",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Directly derived from On-Orbit Ascent Debris Damage Review scenario profile.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "prior_normalization_of_risk": {
+        "factor_id": "prior_normalization_of_risk",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Directly derived from On-Orbit Ascent Debris Damage Review scenario profile.",
+        "is_user_modified": false,
+        "modification_reason": null
+      },
+      "independent_review_skipped": {
+        "factor_id": "independent_review_skipped",
+        "value": true,
+        "extracted_value": true,
+        "confidence": null,
+        "evidence_quote": "Directly derived from On-Orbit Ascent Debris Damage Review scenario profile.",
+        "is_user_modified": false,
+        "modification_reason": null
+      }
+    },
+    "analysis_result": {
+      "status": "PRECEDENT_FOUND",
+      "top_matched_case_names": [
+        "Space Shuttle Columbia (STS-107)",
+        "Mars Climate Orbiter Metric Navigation Discrepancy"
+      ],
+      "overlap_score": 7.0,
+      "category_breadth": 4,
+      "counter_evidence_found": true
+    },
+    "audit_action": null
+  },
+  {
+    "session_id": "SESS-120DFB34",
+    "created_at": "2026-08-19T14:17:15.319975Z",
+    "updated_at": "2026-08-19T14:17:15.329810Z",
+    "submitter": {
+      "role": "Lead Flight Director",
+      "review_board": "Mission Management Team"
+    },
+    "input": {
+      "title": "Orbital Separation Thermal Survey",
+      "mission_context": "On-Orbit Anomaly Assessment",
+      "raw_description": "Inspection camera shows thermal blanket damage."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-120DFB34",
+      "action": "ACKNOWLEDGED",
+      "engineer_notes": "Board reviewed Challenger and Atlantis precedents; contingency reentry profile approved.",
+      "recorded_at": "2026-08-19T14:17:15.329810Z"
+    }
+  },
+  {
+    "session_id": "SESS-D9BB4BBD",
+    "created_at": "2026-08-19T14:17:15.630126Z",
+    "updated_at": "2026-08-19T14:17:15.642220Z",
+    "submitter": {
+      "role": "Engineer",
+      "review_board": "Test Board"
+    },
+    "input": {
+      "title": "Persistence Test Session",
+      "mission_context": "Testing",
+      "raw_description": "Testing session persistence across reloads."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-D9BB4BBD",
+      "action": "DISMISSED",
+      "engineer_notes": "Test persistence",
+      "recorded_at": "2026-08-19T14:17:15.642220Z"
+    }
+  },
+  {
+    "session_id": "SESS-573F8C14",
+    "created_at": "2026-08-19T14:43:42.478080Z",
+    "updated_at": "2026-08-19T14:43:42.486749Z",
+    "submitter": {
+      "role": "Lead Flight Director",
+      "review_board": "Mission Management Team"
+    },
+    "input": {
+      "title": "Orbital Separation Thermal Survey",
+      "mission_context": "On-Orbit Anomaly Assessment",
+      "raw_description": "Inspection camera shows thermal blanket damage."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-573F8C14",
+      "action": "ACKNOWLEDGED",
+      "engineer_notes": "Board reviewed Challenger and Atlantis precedents; contingency reentry profile approved.",
+      "recorded_at": "2026-08-19T14:43:42.486749Z"
+    }
+  },
+  {
+    "session_id": "SESS-AB26FA03",
+    "created_at": "2026-08-19T14:43:42.728373Z",
+    "updated_at": "2026-08-19T14:43:42.738358Z",
+    "submitter": {
+      "role": "Engineer",
+      "review_board": "Test Board"
+    },
+    "input": {
+      "title": "Persistence Test Session",
+      "mission_context": "Testing",
+      "raw_description": "Testing session persistence across reloads."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-AB26FA03",
+      "action": "DISMISSED",
+      "engineer_notes": "Test persistence",
+      "recorded_at": "2026-08-19T14:43:42.738358Z"
+    }
+  },
+  {
+    "session_id": "SESS-1F493C48",
+    "created_at": "2026-08-19T14:50:58.552083Z",
+    "updated_at": "2026-08-19T14:50:58.557982Z",
+    "submitter": {
+      "role": "Lead Flight Director",
+      "review_board": "Mission Management Team"
+    },
+    "input": {
+      "title": "Orbital Separation Thermal Survey",
+      "mission_context": "On-Orbit Anomaly Assessment",
+      "raw_description": "Inspection camera shows thermal blanket damage."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-1F493C48",
+      "action": "ACKNOWLEDGED",
+      "engineer_notes": "Board reviewed Challenger and Atlantis precedents; contingency reentry profile approved.",
+      "recorded_at": "2026-08-19T14:50:58.557982Z"
+    }
+  },
+  {
+    "session_id": "SESS-4D070CD3",
+    "created_at": "2026-08-19T14:50:59.039938Z",
+    "updated_at": "2026-08-19T14:50:59.050890Z",
+    "submitter": {
+      "role": "Engineer",
+      "review_board": "Test Board"
+    },
+    "input": {
+      "title": "Persistence Test Session",
+      "mission_context": "Testing",
+      "raw_description": "Testing session persistence across reloads."
+    },
+    "extracted_factors": {},
+    "analysis_result": null,
+    "audit_action": {
+      "session_id": "SESS-4D070CD3",
+      "action": "DISMISSED",
+      "engineer_notes": "Test persistence",
+      "recorded_at": "2026-08-19T14:50:59.050890Z"
+    }
+  }
+]

@@ -1,0 +1,664 @@
+[
+  {
+    "id": "CASE-HIST-CHALLENGER-1986",
+    "case_name": "Space Shuttle Challenger (STS-51-L)",
+    "mission_program": "Space Transportation System (STS)",
+    "incident_date": "1986-01-28",
+    "outcome_type": "CATASTROPHIC_FAILURE",
+    "verification_status": "VERIFIED",
+    "situation_summary": "Prior to the launch of STS-51-L, Morton Thiokol engineers recommended against launching at ambient temperatures below 53\u00b0F due to primary O-ring resiliency data. NASA and contractor management engaged in an offline caucus where Thiokol management was told to 'put on their management hats,' overruling the engineering recommendation without new technical data.",
+    "factors": {
+      "known_unresolved_issue": {
+        "value": true,
+        "evidence_summary": "O-ring erosion and blow-by had been documented on multiple previous shuttle flights (e.g. STS-51-C).",
+        "source_quote": "The decision to launch was based on a flawed engineering rationale that accepted O-ring erosion as an acceptable risk.",
+        "source_page": null
+      },
+      "safety_margin_degraded": {
+        "value": true,
+        "evidence_summary": "Forecasted launch temperature was 29\u00b0F, far below the tested operational envelope of 53\u00b0F.",
+        "source_quote": "Temperature was a determining factor in O-ring resiliency.",
+        "source_page": null
+      },
+      "schedule_pressure": {
+        "value": "HIGH",
+        "evidence_summary": "High launch cadence commitments, Teacher in Space media event, and upcoming planetary launch windows.",
+        "source_quote": "NASA was operating under severe schedule pressure to maintain the flight schedule.",
+        "source_page": null
+      },
+      "external_conditions_marginal": {
+        "value": true,
+        "evidence_summary": "Sub-freezing ambient temperature (29\u00b0F) and severe launch pad ice formations.",
+        "source_quote": "Unprecedented low temperatures at Launch Complex 39B.",
+        "source_page": null
+      },
+      "dissent_raised_and_overridden": {
+        "value": true,
+        "evidence_summary": "Morton Thiokol propulsion engineers (Boisjoly, Thompson) formally objected to launch but were overruled by Thiokol management.",
+        "source_quote": "Thiokol management reversed their initial recommendation to not launch after NASA pressure.",
+        "source_page": null
+      },
+      "missing_evidence_acknowledged": {
+        "value": true,
+        "evidence_summary": "Absence of low-temperature O-ring test data was interpreted as proof of safety rather than reason for pause.",
+        "source_quote": "NASA shifted the burden of proof to requiring engineers to prove it was unsafe to fly.",
+        "source_page": null
+      },
+      "prior_normalization_of_risk": {
+        "value": true,
+        "evidence_summary": "Previous O-ring blow-by events were classified as 'acceptable flight risk' because secondary O-rings held.",
+        "source_quote": "The phenomenon of normalization of deviance.",
+        "source_page": null
+      },
+      "independent_review_skipped": {
+        "value": true,
+        "evidence_summary": "The Level III / Level IV teleconference dissent was never escalated to Level I / Level II Mission Management.",
+        "source_quote": "Key decision makers were not informed of the contractor engineers' vigorous opposition.",
+        "source_page": null
+      }
+    },
+    "key_decision_points": [
+      {
+        "order": 1,
+        "timestamp_or_phase": "1986-01-27 20:15 EST",
+        "decision_description": "Initial teleconference: Thiokol engineers recommend no launch below 53\u00b0F.",
+        "participating_roles": [
+          "Thiokol Engineers",
+          "MSFC Project Managers"
+        ],
+        "outcome_impact": "NASA MSFC managers contest recommendation and demand justification."
+      },
+      {
+        "order": 2,
+        "timestamp_or_phase": "1986-01-27 22:30 EST",
+        "decision_description": "Thiokol offline management caucus: Management overrules engineering staff.",
+        "participating_roles": [
+          "Thiokol Senior Executives"
+        ],
+        "outcome_impact": "Formal sign-off transmitted approving launch."
+      }
+    ],
+    "documented_contributing_factors": [
+      "Never shift the burden of proof from 'prove it is safe' to 'prove it will fail'.",
+      "Require mandatory escalation of contractor technical dissent to Level I flight directors.",
+      "Do not treat recurring anomalies as evidence of safety margin."
+    ],
+    "documented_safeguards": [],
+    "documented_response_actions": [],
+    "citation": {
+      "id": "CIT-ROGERS-1986",
+      "report_title": "Report of the Presidential Commission on the Space Shuttle Challenger Accident",
+      "issuing_body": "Presidential Commission (Rogers Commission)",
+      "publication_year": 1986,
+      "document_number": "PC-STS-51L-1986",
+      "public_url": "",
+      "document_path": "/api/v1/sources/challenger_sts51l_report.pdf",
+      "key_excerpts": [
+        "The failure was due to a breakdown in the decision-making process at NASA and Thiokol.",
+        "A known defect had been accepted as an acceptable flight risk."
+      ]
+    },
+    "secondary_citations": []
+  },
+  {
+    "id": "CASE-HIST-COLUMBIA-2003",
+    "case_name": "Space Shuttle Columbia (STS-107)",
+    "mission_program": "Space Transportation System (STS)",
+    "incident_date": "2003-02-01",
+    "outcome_type": "CATASTROPHIC_FAILURE",
+    "verification_status": "VERIFIED",
+    "situation_summary": "During ascent of STS-107, External Tank Left Bipod foam shed and struck Columbia's left wing leading edge. During the 16-day orbital mission, the Debris Assessment Team requested Department of Defense satellite imagery of the wing three times. Mission Management Team leadership dismissed the requests, relying on Crater algorithm modeling that was known to be uncalibrated for large foam strikes.",
+    "factors": {
+      "known_unresolved_issue": {
+        "value": true,
+        "evidence_summary": "External Tank bipod ramp foam shedding had occurred on multiple previous missions (e.g. STS-87, STS-112).",
+        "source_quote": "Foam shedding was a known defect that had been reclassified from safety-of-flight to maintenance turnaround.",
+        "source_page": null
+      },
+      "safety_margin_degraded": {
+        "value": true,
+        "evidence_summary": "Left wing Reinforced Carbon-Carbon (RCC) panel 8 sustained a 10-inch breach from hypervelocity foam impact.",
+        "source_quote": "The physical cause was a breach in the Thermal Protection System on the leading edge of the left wing.",
+        "source_page": null
+      },
+      "schedule_pressure": {
+        "value": "HIGH",
+        "evidence_summary": "Severe schedule pressure to meet the International Space Station Node 2 launch milestone (Core Complete schedule).",
+        "source_quote": "NASA was operating in an environment of constrained resources and aggressive schedule milestones.",
+        "source_page": null
+      },
+      "external_conditions_marginal": {
+        "value": false,
+        "evidence_summary": "Nominal ascent weather and orbital space environment.",
+        "source_quote": "Ascent atmospheric conditions and orbital environment were within normal bounds.",
+        "source_page": null
+      },
+      "dissent_raised_and_overridden": {
+        "value": true,
+        "evidence_summary": "Debris Assessment Team engineers repeatedly requested external satellite imaging, but MMT leadership rebuffed the requests.",
+        "source_quote": "Management culture degraded safety communication and suppressed dissenting engineering voices.",
+        "source_page": null
+      },
+      "missing_evidence_acknowledged": {
+        "value": true,
+        "evidence_summary": "The Crater damage prediction tool was recognized as having severe mathematical limitations for large foam projectiles, but its benign results were accepted.",
+        "source_quote": "The engineering analysis used an unverified mathematical model outside its calibrated envelope.",
+        "source_page": null
+      },
+      "prior_normalization_of_risk": {
+        "value": true,
+        "evidence_summary": "Foam shedding had occurred on prior flights without loss of vehicle, leading to the institutional belief that foam could not cause catastrophic damage.",
+        "source_quote": "The organizational causes of the Columbia accident are rooted in NASA's history and culture, including normalization of deviance.",
+        "source_page": null
+      },
+      "independent_review_skipped": {
+        "value": true,
+        "evidence_summary": "NASA safety organization lacked independent authority and budget, serving as a subordinate support function to program management.",
+        "source_quote": "Safety and Mission Assurance was not independent and lacked direct authority to stop operations.",
+        "source_page": null
+      }
+    },
+    "key_decision_points": [
+      {
+        "order": 1,
+        "timestamp_or_phase": "Flight Day 5",
+        "decision_description": "Debris Assessment Team requests high-resolution DoD orbital imagery of left wing underside.",
+        "participating_roles": [
+          "DAT Lead Rodney Rocha",
+          "Mission Management Team"
+        ],
+        "outcome_impact": "NASA management cancels the DoD imaging request as 'unnecessary'."
+      },
+      {
+        "order": 2,
+        "timestamp_or_phase": "Flight Day 8",
+        "decision_description": "MMT reviews Crater simulation output indicating possible tile gouging but no burn-through.",
+        "participating_roles": [
+          "MMT Chair Linda Ham",
+          "Flight Operations"
+        ],
+        "outcome_impact": "Management declares the debris strike 'not a safety of flight issue' and closes formal inquiry."
+      }
+    ],
+    "documented_contributing_factors": [
+      "Never accept mathematical model extrapolations when direct physical observation (e.g. imagery) is obtainable.",
+      "Maintain a completely independent safety authority with veto power over operational flight decisions.",
+      "Treat repetitive deviations as symptoms of systemic degradation rather than evidence of robust margins."
+    ],
+    "documented_safeguards": [],
+    "documented_response_actions": [],
+    "citation": {
+      "id": "CIT-CAIB-2003",
+      "report_title": "Columbia Accident Investigation Board Report (CAIB)",
+      "issuing_body": "Columbia Accident Investigation Board",
+      "publication_year": 2003,
+      "document_number": "CAIB-VOL1-2003",
+      "public_url": "",
+      "document_path": "/api/v1/sources/columbia_sts107_caib_report.pdf",
+      "key_excerpts": [
+        "The CAIB concluded that NASA's organizational culture and structure had as much to do with the accident as the External Tank foam.",
+        "Management techniques that had worked in the past were not sufficient to prevent the disaster."
+      ]
+    },
+    "secondary_citations": []
+  },
+  {
+    "id": "CASE-HIST-APOLLO13-1970",
+    "case_name": "Apollo 13 Cryogenic Oxygen Tank Anomaly",
+    "mission_program": "Apollo Lunar Exploration Program",
+    "incident_date": "1970-04-14",
+    "outcome_type": "ADVERSE_EVENT_RECOVERED",
+    "verification_status": "VERIFIED",
+    "situation_summary": "At 55:54:53 ground elapsed time, Service Module Oxygen Tank 2 ruptured during a routine cryo-stir, disabling two fuel cells and depleting Command Module oxygen. Ground flight controllers, contractor tiger teams, and the crew rapidly collaborated to repurpose the Lunar Module (Aquarius) as a lifeboat, executing improvised free-return trajectory burns and custom LiOH carbon dioxide scrubbing adapters.",
+    "factors": {
+      "known_unresolved_issue": {
+        "value": true,
+        "evidence_summary": "Oxygen Tank 2 heater switch contacts were damaged during high-voltage pre-launch detanking at Kennedy Space Center.",
+        "source_quote": "Thermostat switch contacts were welded shut during pre-flight pad detanking heating procedure.",
+        "source_page": null
+      },
+      "safety_margin_degraded": {
+        "value": true,
+        "evidence_summary": "Total loss of Service Module oxygen supply and electrical power generation; life support margins severely compromised.",
+        "source_quote": "Pressure in Oxygen Tank 2 dropped rapidly to zero, with progressive loss of Tank 1.",
+        "source_page": null
+      },
+      "schedule_pressure": {
+        "value": "MEDIUM",
+        "evidence_summary": "Apollo lunar landing timeline commitments and launch window schedule constraints.",
+        "source_quote": "Strict operational timeline for trans-lunar injection and lunar landing windows.",
+        "source_page": null
+      },
+      "external_conditions_marginal": {
+        "value": false,
+        "evidence_summary": "Deep space trans-lunar cruise environment was nominal prior to the electrical short and tank rupture.",
+        "source_quote": "Spacecraft was on a nominal translunar coast trajectory prior to the anomaly.",
+        "source_page": null
+      },
+      "dissent_raised_and_overridden": {
+        "value": false,
+        "evidence_summary": "Ground flight directors encouraged transparent dissent and multi-disciplinary debate on electrical power-down and trajectory options.",
+        "source_quote": "Flight Director Eugene Kranz fostered open communication and structured team consensus.",
+        "source_page": null
+      },
+      "missing_evidence_acknowledged": {
+        "value": true,
+        "evidence_summary": "Telemetry sensors showed contradictory readings (0 psi pressure, 100% quantity fluctuating), acknowledged as critical physical failure rather than sensor error.",
+        "source_quote": "Flight controllers acknowledged conflicting instrumentation and verified physical venting via crew visual observation.",
+        "source_page": null
+      },
+      "prior_normalization_of_risk": {
+        "value": true,
+        "evidence_summary": "Pre-flight tank heating anomaly on the launch pad was accepted without teardown or redesign verification.",
+        "source_quote": "The 65V GSE compatibility issue was known to contractor engineering but never fully integrated into safety documentation.",
+        "source_page": null
+      },
+      "independent_review_skipped": {
+        "value": false,
+        "evidence_summary": "All contingency procedures were verified on ground simulators with contractor engineering teams before uplink to the crew.",
+        "source_quote": "Simulators at MSC and KSC ran full checklist validations prior to crew execution.",
+        "source_page": null
+      }
+    },
+    "key_decision_points": [
+      {
+        "order": 1,
+        "timestamp_or_phase": "GET 56:09:00",
+        "decision_description": "Flight Director orders immediate power-down of Command Module Odyssey to preserve reentry batteries and activates LM Aquarius.",
+        "participating_roles": [
+          "Flight Director",
+          "EECOM",
+          "CAPCOM",
+          "Crew"
+        ],
+        "outcome_impact": "Preserved critical battery power required for final Earth reentry phase."
+      },
+      {
+        "order": 2,
+        "timestamp_or_phase": "GET 61:29:43",
+        "decision_description": "Ground team calculates and uplinks DPS-1 burn to transition Apollo 13 into a free-return trajectory around the Moon.",
+        "participating_roles": [
+          "RETRO",
+          "FIDO",
+          "GUIDO",
+          "Contractor Support"
+        ],
+        "outcome_impact": "Guaranteed passive gravitational return to Earth without requiring Service Propulsion System engine."
+      }
+    ],
+    "documented_contributing_factors": [
+      "Oxygen Tank 2 heater switch contacts welded shut during pre-flight pad detanking.",
+      "The 65V GSE compatibility issue was known but not fully integrated into safety documentation.",
+      "Pre-flight anomalies on ground support equipment failed to trigger rigorous teardown audits."
+    ],
+    "documented_safeguards": [],
+    "documented_response_actions": [
+      "Command Module powered down to preserve reentry batteries.",
+      "Lunar Module repurposed as lifeboat.",
+      "Ground simulation and independent procedure verification completed prior to execution.",
+      "Collaborative, non-hierarchical problem solving surfaced novel recovery paths."
+    ],
+    "citation": {
+      "id": "CIT-APOLLO13-1970",
+      "report_title": "Report of Apollo 13 Review Board",
+      "issuing_body": "NASA Apollo 13 Review Board (Cortright Commission)",
+      "publication_year": 1970,
+      "document_number": "NASA-TM-X-65270",
+      "public_url": "",
+      "document_path": "/api/v1/sources/apollo13_review_board_report.pdf",
+      "key_excerpts": [
+        "The accident was caused by an unusual combination of manufacturing, testing, and operational oversights.",
+        "The recovery demonstrated the extraordinary value of flight controller adaptability and simulator validation."
+      ]
+    },
+    "secondary_citations": []
+  },
+  {
+    "id": "CASE-HIST-STS27-1988",
+    "case_name": "Space Shuttle Atlantis (STS-27) Tile Damage",
+    "mission_program": "Space Transportation System (STS)",
+    "incident_date": "1988-12-02",
+    "outcome_type": "NEAR_MISS_RECOVERED",
+    "verification_status": "VERIFIED",
+    "situation_summary": "During ascent, ablative insulation from the right Solid Rocket Booster struck the orbiter, damaging over 700 thermal protection tiles. Crew inspection via robotic arm camera showed severely damaged and missing tiles. Due to encrypted video degradation, Mission Control incorrectly assessed the damage as minor 'lights and shadows' and authorized nominal reentry. The vehicle survived only because the most severe damage\u2014a completely missing tile\u2014fortuitously occurred over a dense steel antenna mounting plate rather than the aluminum airframe, preventing structural burn-through.",
+    "factors": {
+      "known_unresolved_issue": {
+        "value": true,
+        "evidence_summary": "Debris shedding from SRB nose cones had occurred on prior flights.",
+        "source_quote": "Ablative material shedding was a known debris source.",
+        "source_page": null
+      },
+      "safety_margin_degraded": {
+        "value": true,
+        "evidence_summary": "One L-band antenna tile was completely missing, exposing bare steel structure.",
+        "source_quote": "Structural burn-through risk was elevated.",
+        "source_page": null
+      },
+      "schedule_pressure": {
+        "value": "LOW",
+        "evidence_summary": "DoD classified mission with on-orbit contingency time available.",
+        "source_quote": "Mission timeline was adaptable.",
+        "source_page": null
+      },
+      "external_conditions_marginal": {
+        "value": false,
+        "evidence_summary": "Nominal ascent and orbital environmental conditions.",
+        "source_quote": "Space weather and orbit were nominal.",
+        "source_page": null
+      },
+      "dissent_raised_and_overridden": {
+        "value": true,
+        "evidence_summary": "The crew identified and communicated serious tile damage concerns, but Mission Control's assessment dismissed the severity and overrode those concerns.",
+        "source_quote": "Open communication maintained between crew and flight directors.",
+        "source_page": null
+      },
+      "missing_evidence_acknowledged": {
+        "value": true,
+        "evidence_summary": "Low-resolution video hindered accurate thermal modeling; crew acknowledged uncertainty.",
+        "source_quote": "Image resolution was insufficient for definitive aero-thermal analysis.",
+        "source_page": null
+      },
+      "prior_normalization_of_risk": {
+        "value": true,
+        "evidence_summary": "Minor tile strikes had been normalized on STS-1 through STS-26.",
+        "source_quote": "Foam and ablator strikes were historically treated as maintenance turnaround issues.",
+        "source_page": null
+      },
+      "independent_review_skipped": {
+        "value": true,
+        "evidence_summary": "The available review/assessment failed to correctly resolve the severity of the damage and Mission Control incorrectly characterized it as minor before authorizing nominal reentry.",
+        "source_quote": "Independent photo analysis was conducted before reentry clearance.",
+        "source_page": null
+      }
+    },
+    "key_decision_points": [
+      {
+        "order": 1,
+        "timestamp_or_phase": "Flight Day 2",
+        "decision_description": "Commander uses RMS arm to survey right wing underside.",
+        "participating_roles": [
+          "Crew",
+          "Flight Director"
+        ],
+        "outcome_impact": "Confirmed severe tile damage and escalated to ground review."
+      },
+      {
+        "order": 2,
+        "timestamp_or_phase": "Flight Day 4",
+        "decision_description": "Severe tile damage was observed and reported, but Mission Control incorrectly assessed the severity and authorized nominal reentry. The vehicle survived because the most severe damage happened to be over the dense steel antenna mounting structure.",
+        "participating_roles": [
+          "DoD Image Analysts",
+          "NASA Mission Management"
+        ],
+        "outcome_impact": "Crew executes reentry with verified conservative trajectory; safe landing achieved."
+      }
+    ],
+    "documented_contributing_factors": [],
+    "documented_safeguards": [],
+    "documented_response_actions": [],
+    "citation": {
+      "id": "CIT-NASA-STS27-1988",
+      "report_title": "STS-27 National Space Transportation System Mission Report",
+      "issuing_body": "NASA Johnson Space Center",
+      "publication_year": 1989,
+      "document_number": "NSTS-23370",
+      "public_url": "",
+      "document_path": null,
+      "key_excerpts": [
+        "The orbiter survived reentry with severe tile damage due to steel mounting plate resilience.",
+        "Independent imagery analysis provided critical confirmation."
+      ]
+    },
+    "secondary_citations": []
+  },
+  {
+    "id": "CASE-HIST-MCO-1999",
+    "case_name": "Mars Climate Orbiter Metric Navigation Discrepancy",
+    "mission_program": "Mars Surveyor '98",
+    "incident_date": "1999-09-23",
+    "outcome_type": "MISSION_LOSS",
+    "verification_status": "VERIFIED",
+    "situation_summary": "During the 9-month interplanetary cruise to Mars, ground software generated thruster firing impulse data in English units (pound-seconds) while trajectory navigation software expected SI metric units (Newton-seconds). Navigators noticed persistent small trajectory discrepancies across multiple trajectory correction maneuvers, but concerns were not escalated or reconciled before Mars Orbit Insertion, resulting in atmospheric breakup.",
+    "factors": {
+      "known_unresolved_issue": {
+        "value": true,
+        "evidence_summary": "Angular Momentum Desaturation (AMD) file discrepancy was detected months earlier during cruise maneuvers.",
+        "source_quote": "Discrepancies in the Angular Momentum Desaturation files were identified early in cruise but never resolved.",
+        "source_page": null
+      },
+      "safety_margin_degraded": {
+        "value": true,
+        "evidence_summary": "Orbiter entered Mars atmosphere at 57 km periapsis altitude instead of planned safe 140\u2013150 km corridor.",
+        "source_quote": "The minimum altitude for spacecraft survival during aerocapture insertion was 80 km; actual altitude was 57 km.",
+        "source_page": null
+      },
+      "schedule_pressure": {
+        "value": "HIGH",
+        "evidence_summary": "Extreme cost and staffing constraints under the 'Faster, Better, Cheaper' initiative and fixed interplanetary encounter window.",
+        "source_quote": "Operations team was overburdened and understaffed, managing two planetary missions simultaneously.",
+        "source_page": null
+      },
+      "external_conditions_marginal": {
+        "value": false,
+        "evidence_summary": "Interplanetary space environment and solar pressure modeling conditions were nominal.",
+        "source_quote": "Solar radiation pressure and cruise environmental factors were within normal parameters.",
+        "source_page": null
+      },
+      "dissent_raised_and_overridden": {
+        "value": true,
+        "evidence_summary": "Navigation team members raised concerns regarding velocity discrepancies at Trajectory Sub-Group meetings, but formal inquiry was rejected for lack of required administrative documentation.",
+        "source_quote": "Navigators' concerns were not recognized by project leadership because they did not follow formal Incident, Surprise, Anomaly reporting rules.",
+        "source_page": null
+      },
+      "missing_evidence_acknowledged": {
+        "value": true,
+        "evidence_summary": "Operations team acknowledged discrepancy between optical navigation observations and radio Doppler trajectory fits but proceeded without reconciliation.",
+        "source_quote": "The navigation team noted contradictory trajectory solutions prior to orbit insertion.",
+        "source_page": null
+      },
+      "prior_normalization_of_risk": {
+        "value": true,
+        "evidence_summary": "Unexplained small force discrepancies had been accepted across previous trajectory correction burns without finding root cause.",
+        "source_quote": "Small anomalous trajectory errors were normalized as routine navigation noise.",
+        "source_page": null
+      },
+      "independent_review_skipped": {
+        "value": true,
+        "evidence_summary": "Independent end-to-end interface verification between contractor software (Lockheed Martin) and JPL navigation software was never conducted.",
+        "source_quote": "End-to-end verification of the Small Forces software interface was omitted from testing.",
+        "source_page": null
+      }
+    },
+    "key_decision_points": [
+      {
+        "order": 1,
+        "timestamp_or_phase": "Cruise Phase TCM-2 / TCM-3",
+        "decision_description": "Navigators detect unexpected velocity accumulation in AMD files but fail to file formal ISA report.",
+        "participating_roles": [
+          "JPL Navigators",
+          "Spacecraft Operations Team"
+        ],
+        "outcome_impact": "Root unit conversion error remains undetected."
+      },
+      {
+        "order": 2,
+        "timestamp_or_phase": "T-24 Hours prior to Mars Orbit Insertion",
+        "decision_description": "Operations leadership elects not to execute contingency Trajectory Correction Maneuver 5 (TCM-5) to raise periapsis.",
+        "participating_roles": [
+          "Project Manager",
+          "Flight Operations Lead"
+        ],
+        "outcome_impact": "Spacecraft enters Martian upper atmosphere too low and is destroyed."
+      }
+    ],
+    "documented_contributing_factors": [
+      "Mandate end-to-end unit and interface validation across all contractor-agency software boundaries.",
+      "Remove bureaucratic friction from anomaly reporting so informal navigation concerns are treated as formal risks.",
+      "Ensure adequate operational staffing reserves during critical planetary approach phases."
+    ],
+    "documented_safeguards": [],
+    "documented_response_actions": [],
+    "citation": {
+      "id": "CIT-NASA-MCO-1999",
+      "report_title": "Mars Climate Orbiter Mishap Investigation Board Phase I Report",
+      "issuing_body": "NASA Mishap Investigation Board (Stephenson Board)",
+      "publication_year": 1999,
+      "document_number": "NASA-MCO-MIB-1999",
+      "public_url": "https://llis.nasa.gov/llis_lib/pdf/1009464main1_0641-mr.pdf",
+      "document_path": "/api/v1/sources/mars_climate_orbiter_mishap_report.pdf",
+      "key_excerpts": [
+        "The root cause of the loss of the spacecraft was the failure to use metric units in the coding of a ground software file.",
+        "The peer review process did not effectively verify software interfaces."
+      ]
+    },
+    "secondary_citations": []
+  },
+  {
+    "id": "CASE-USER-TEST-1",
+    "case_name": "Test User Case",
+    "mission_program": "Test Program",
+    "incident_date": "2026-08-09",
+    "outcome_type": "NEAR_MISS_RECOVERED",
+    "verification_status": "USER_SUBMITTED",
+    "situation_summary": "This is a detailed summary of the situation that meets the 20 character limit requirement.",
+    "factors": {
+      "known_unresolved_issue": {
+        "value": false,
+        "evidence_summary": "Not available",
+        "source_quote": "",
+        "source_page": null
+      },
+      "safety_margin_degraded": {
+        "value": false,
+        "evidence_summary": "Not available",
+        "source_quote": "",
+        "source_page": null
+      },
+      "schedule_pressure": {
+        "value": "LOW",
+        "evidence_summary": "Not available",
+        "source_quote": "",
+        "source_page": null
+      },
+      "external_conditions_marginal": {
+        "value": false,
+        "evidence_summary": "Not available",
+        "source_quote": "",
+        "source_page": null
+      },
+      "dissent_raised_and_overridden": {
+        "value": false,
+        "evidence_summary": "Not available",
+        "source_quote": "",
+        "source_page": null
+      },
+      "missing_evidence_acknowledged": {
+        "value": false,
+        "evidence_summary": "Not available",
+        "source_quote": "",
+        "source_page": null
+      },
+      "prior_normalization_of_risk": {
+        "value": false,
+        "evidence_summary": "Not available",
+        "source_quote": "",
+        "source_page": null
+      },
+      "independent_review_skipped": {
+        "value": false,
+        "evidence_summary": "Not available",
+        "source_quote": "",
+        "source_page": null
+      }
+    },
+    "key_decision_points": [],
+    "documented_contributing_factors": [],
+    "documented_safeguards": [],
+    "documented_response_actions": [],
+    "citation": {
+      "id": "CIT-TEST-1",
+      "report_title": "Test Report",
+      "issuing_body": "Test Body",
+      "publication_year": 2026,
+      "document_number": null,
+      "public_url": null,
+      "document_path": null,
+      "key_excerpts": []
+    },
+    "secondary_citations": []
+  },
+  {
+    "id": "CASE-USER-BOUNDARY-1",
+    "case_name": "Boundary Test Case",
+    "mission_program": "Test",
+    "incident_date": "2026-08-09",
+    "outcome_type": "CATASTROPHIC_FAILURE",
+    "verification_status": "USER_SUBMITTED",
+    "situation_summary": "This is a detailed summary of the situation that meets the 20 character limit requirement.",
+    "factors": {
+      "known_unresolved_issue": {
+        "value": true,
+        "evidence_summary": "Not available",
+        "source_quote": "",
+        "source_page": null
+      },
+      "safety_margin_degraded": {
+        "value": true,
+        "evidence_summary": "Not available",
+        "source_quote": "",
+        "source_page": null
+      },
+      "schedule_pressure": {
+        "value": "HIGH",
+        "evidence_summary": "Not available",
+        "source_quote": "",
+        "source_page": null
+      },
+      "external_conditions_marginal": {
+        "value": true,
+        "evidence_summary": "Not available",
+        "source_quote": "",
+        "source_page": null
+      },
+      "dissent_raised_and_overridden": {
+        "value": true,
+        "evidence_summary": "Not available",
+        "source_quote": "",
+        "source_page": null
+      },
+      "missing_evidence_acknowledged": {
+        "value": true,
+        "evidence_summary": "Not available",
+        "source_quote": "",
+        "source_page": null
+      },
+      "prior_normalization_of_risk": {
+        "value": true,
+        "evidence_summary": "Not available",
+        "source_quote": "",
+        "source_page": null
+      },
+      "independent_review_skipped": {
+        "value": true,
+        "evidence_summary": "Not available",
+        "source_quote": "",
+        "source_page": null
+      }
+    },
+    "key_decision_points": [],
+    "documented_contributing_factors": [],
+    "documented_safeguards": [],
+    "documented_response_actions": [],
+    "citation": {
+      "id": "CIT-BOUNDARY-1",
+      "report_title": "Test Report",
+      "issuing_body": "Test Body",
+      "publication_year": 2026,
+      "document_number": null,
+      "public_url": null,
+      "document_path": null,
+      "key_excerpts": []
+    },
+    "secondary_citations": []
+  }
+]
