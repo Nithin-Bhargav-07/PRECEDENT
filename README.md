@@ -309,40 +309,7 @@ The deterministic engine evaluates this against the Case Base and mathematically
 
 ---
 
-## 17. PROJECT STRUCTURE
-
-```text
-PRECEDENT/
-├── backend/
-│   ├── app/
-│   │   ├── api/
-│   │   ├── models/
-│   │   ├── repositories/
-│   │   └── services/
-│   │       ├── ai/
-│   │       └── engine/
-│   ├── data/
-│   │   └── cases.json
-│   ├── tests/
-│   └── requirements.txt
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── lib/
-│   │   ├── pages/
-│   │   └── types/
-│   └── package.json
-├── docs/
-│   ├── 01_SYSTEM_ARCHITECTURE.md
-│   ├── 02_DATA_MODEL.md
-│   └── 03_REASONING_ENGINE.md
-├── README.md
-└── .gitignore
-```
-
----
-
-## 18. SETUP
+## 17. SETUP
 
 ### Backend Setup
 ```bash
@@ -367,7 +334,7 @@ npm run dev
 
 ---
 
-## 19. TESTING
+## 18. TESTING
 
 The project maintains an official test suite verifying deterministic invariants, ranking logic, tie resolution, and schema validation.
 
@@ -387,16 +354,7 @@ npm run build
 
 ---
 
-## 20. LIMITATIONS
-
-- **Decision Support Only:** PRECEDENT is an advisory tool; it does not replace autonomous flight certification or regulatory approval.
-- **Scanned Reports:** Legacy PDFs without embedded text (no OCR applied) may extract poorly via the standard parsing pipeline.
-- **AI Extraction Limits:** Generative AI extraction strictly requires an engineer's correction to capture nuanced institutional contexts.
-- **Persistence Scale:** The flat-file JSON repository is lightweight for rapid deployment but is not intended as an enterprise-scale relational database.
-
----
-
-## 21. ROADMAP
+## 19. ROADMAP
 
 - OCR integration for legacy scanned engineering reports.
 - Richer provenance and citation storage linked to specific page bounds.
