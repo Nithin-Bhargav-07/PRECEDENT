@@ -12,6 +12,13 @@ from pydantic import BaseModel, ConfigDict, Field, field_validator
 
 from app.models.enums import AuditActionType, ConfidenceLevel, ReviewStatus
 from app.models.factors import ExtractedFactorItem, validate_factor_map_keys
+from app.models.review import (
+    AbstentionDetail,
+    ConfidenceAssessment,
+    CounterEvidenceMatch,
+    GroundedExplanation,
+    PrecedentMatch,
+)
 class SessionInputSnapshot(BaseModel):
     """Situation input persisted on a review session audit record."""
 
@@ -67,6 +74,12 @@ class SessionAnalysisSummary(BaseModel):
     overlap_score: float | None = None
     category_breadth: int | None = None
     counter_evidence_found: bool
+
+    matched_cases: list[PrecedentMatch] | None = None
+    confidence: ConfidenceAssessment | None = None
+    counter_evidence: list[CounterEvidenceMatch] | None = None
+    grounded_explanation: GroundedExplanation | None = None
+    abstention_detail: AbstentionDetail | None = None
 
 
 class ReviewSessionRecord(BaseModel):

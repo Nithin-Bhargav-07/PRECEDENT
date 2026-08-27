@@ -1,6 +1,32 @@
 # PRECEDENT — Document 2: Data Model & Schema Specification
 **Reference Documents:** `docs/01_SYSTEM_ARCHITECTURE.md`, `PROJECT_CONSTITUTION.md`, `IBM2.pdf`   
 
+
+### 4.7 Review Session Record
+The complete, immutable audit trail for a single evaluation session.
+- **Attributes:**
+  - `session_id` (`string`, UUID): Unique session identifier.
+  - `created_at` / `updated_at` (`string`, ISO 8601 Timestamp)
+  - `submitter` (`SessionSubmitter`): Role and review board context.
+  - `input` (`SessionInputSnapshot`): Immutable snapshot of the textual input.
+  - `extracted_factors` (`map[FactorID, ExtractedFactorItem]`): Provenance of factors (Granite extractions + human overrides).
+  - `analysis_result` (`SessionAnalysisSummary` | `null`): The rich deterministic evaluation and grounded AI explanation.
+  - `audit_action` (`AuditAction` | `null`): The engineer's final sign-off action.
+
+### 4.8 Session Analysis Summary
+Persisted summary of the deterministic analysis and AI explanation attached to a session. Legacy sessions may have sparse fields.
+- **Attributes:**
+  - `status` (`enum`): Review status.
+  - `top_matched_case_names` (`array[string]`)
+  - `overlap_score` (`float` | `null`)
+  - `category_breadth` (`integer` | `null`)
+  - `counter_evidence_found` (`boolean`)
+  - `matched_cases` (`array[PrecedentMatch]` | `null`): Full matched case context (Optional for legacy support).
+  - `confidence` (`ConfidenceAssessment` | `null`): (Optional).
+  - `counter_evidence` (`array[CounterEvidenceMatch]` | `null`): (Optional).
+  - `grounded_explanation` (`GroundedExplanation` | `null`): (Optional).
+  - `abstention_detail` (`AbstentionDetail` | `null`): (Optional).
+
 ---
 
 ## 1. Data Modeling Philosophy & Integrity Guardrails
@@ -11,6 +37,32 @@ The PRECEDENT data model is the deterministic foundation of the entire system. I
 2. **Immutability of Historical Ground Truth:** Historical case entities and citations represent immutable, peer-reviewed engineering history. They cannot be modified at runtime.
 3. **Traceable Human-in-the-Loop State:** All AI extractions are explicitly tracked with confidence excerpts and flags indicating whether an engineer accepted or overrode the extracted factor.
 4. **Zero-Fabrication Validation:** Strict typing and Pydantic v2 schemas reject any ungrounded citation, missing source reference, or fabricated factor.
+
+
+### 4.7 Review Session Record
+The complete, immutable audit trail for a single evaluation session.
+- **Attributes:**
+  - `session_id` (`string`, UUID): Unique session identifier.
+  - `created_at` / `updated_at` (`string`, ISO 8601 Timestamp)
+  - `submitter` (`SessionSubmitter`): Role and review board context.
+  - `input` (`SessionInputSnapshot`): Immutable snapshot of the textual input.
+  - `extracted_factors` (`map[FactorID, ExtractedFactorItem]`): Provenance of factors (Granite extractions + human overrides).
+  - `analysis_result` (`SessionAnalysisSummary` | `null`): The rich deterministic evaluation and grounded AI explanation.
+  - `audit_action` (`AuditAction` | `null`): The engineer's final sign-off action.
+
+### 4.8 Session Analysis Summary
+Persisted summary of the deterministic analysis and AI explanation attached to a session. Legacy sessions may have sparse fields.
+- **Attributes:**
+  - `status` (`enum`): Review status.
+  - `top_matched_case_names` (`array[string]`)
+  - `overlap_score` (`float` | `null`)
+  - `category_breadth` (`integer` | `null`)
+  - `counter_evidence_found` (`boolean`)
+  - `matched_cases` (`array[PrecedentMatch]` | `null`): Full matched case context (Optional for legacy support).
+  - `confidence` (`ConfidenceAssessment` | `null`): (Optional).
+  - `counter_evidence` (`array[CounterEvidenceMatch]` | `null`): (Optional).
+  - `grounded_explanation` (`GroundedExplanation` | `null`): (Optional).
+  - `abstention_detail` (`AbstentionDetail` | `null`): (Optional).
 
 ---
 
@@ -41,6 +93,32 @@ erDiagram
     PRECEDENT_MATCH }o--|| HISTORICAL_CASE : references
     COUNTER_EVIDENCE_MATCH }o--|| HISTORICAL_CASE : references
 ```
+
+
+### 4.7 Review Session Record
+The complete, immutable audit trail for a single evaluation session.
+- **Attributes:**
+  - `session_id` (`string`, UUID): Unique session identifier.
+  - `created_at` / `updated_at` (`string`, ISO 8601 Timestamp)
+  - `submitter` (`SessionSubmitter`): Role and review board context.
+  - `input` (`SessionInputSnapshot`): Immutable snapshot of the textual input.
+  - `extracted_factors` (`map[FactorID, ExtractedFactorItem]`): Provenance of factors (Granite extractions + human overrides).
+  - `analysis_result` (`SessionAnalysisSummary` | `null`): The rich deterministic evaluation and grounded AI explanation.
+  - `audit_action` (`AuditAction` | `null`): The engineer's final sign-off action.
+
+### 4.8 Session Analysis Summary
+Persisted summary of the deterministic analysis and AI explanation attached to a session. Legacy sessions may have sparse fields.
+- **Attributes:**
+  - `status` (`enum`): Review status.
+  - `top_matched_case_names` (`array[string]`)
+  - `overlap_score` (`float` | `null`)
+  - `category_breadth` (`integer` | `null`)
+  - `counter_evidence_found` (`boolean`)
+  - `matched_cases` (`array[PrecedentMatch]` | `null`): Full matched case context (Optional for legacy support).
+  - `confidence` (`ConfidenceAssessment` | `null`): (Optional).
+  - `counter_evidence` (`array[CounterEvidenceMatch]` | `null`): (Optional).
+  - `grounded_explanation` (`GroundedExplanation` | `null`): (Optional).
+  - `abstention_detail` (`AbstentionDetail` | `null`): (Optional).
 
 ---
 
@@ -83,7 +161,12 @@ Immutable record of a historical aerospace mission incident (failure or near-mis
   - `case_name` (`string`): Common incident name (e.g., "Space Shuttle Challenger (STS-51-L)").
   - `mission_program` (`string`): Program/vehicle (e.g., "Space Shuttle Program / STS").
   - `incident_date` (`string`, ISO 8601 Date: `YYYY-MM-DD`): Date of the event.
-  - `outcome_type` (`enum`): `"CATASTROPHIC_FAILURE"` | `"MISSION_LOSS"` | `"NEAR_MISS_RECOVERED"` (Counter-evidence).
+  - `verification_status` (`enum`): Indicates the case's trusted integrity level.
+    - `"VERIFIED"`: Cases are eligible to participate in the trusted historical reasoning corpus according to outcome-specific eligibility rules.
+    - `"USER_SUBMITTED"`: Cases are not eligible for deterministic precedent ranking or counter-evidence discovery.
+  - `outcome_type` (`enum`):
+    - **Primary precedent outcomes**: `"CATASTROPHIC_FAILURE"` | `"MISSION_LOSS"`
+    - **Counter-evidence outcomes**: `"ADVERSE_EVENT_RECOVERED"` (represents a recovered/adverse historical event used as counter-evidence rather than a primary failure precedent) | `"NEAR_MISS_RECOVERED"`
   - `situation_summary` (`string`): Paraphrased 2-3 paragraph engineering overview of the situation leading up to the decision.
   - `factors` (`map[FactorID, FactorCaseEvidence]`): The 8 factor values tagged for this case with specific historical evidence notes.
   - `key_decision_points` (`array[KeyDecisionPoint]`): Critical review/operational decisions made during the mission.
@@ -171,7 +254,13 @@ export type SchedulePressureLevel = 'LOW' | 'MEDIUM' | 'HIGH';
 export type CaseOutcomeType = 
   | 'CATASTROPHIC_FAILURE' 
   | 'MISSION_LOSS' 
+  | 'ADVERSE_EVENT_RECOVERED'
   | 'NEAR_MISS_RECOVERED';
+
+export type CaseVerificationStatus = 
+  | 'VERIFIED'
+  | 'PENDING_VERIFICATION'
+  | 'USER_SUBMITTED';
 
 export type ConfidenceLevel = 'HIGH' | 'MEDIUM' | 'LOW' | 'NONE';
 
@@ -219,6 +308,7 @@ export interface HistoricalCase {
   mission_program: string;
   incident_date: string; // ISO YYYY-MM-DD
   outcome_type: CaseOutcomeType;
+  verification_status: CaseVerificationStatus;
   situation_summary: string;
   factors: Record<string, FactorCaseEvidence>;
   key_decision_points: KeyDecisionPoint[];
@@ -274,6 +364,7 @@ export interface PrecedentMatch {
   mission_program: string;
   incident_date: string;
   outcome_type: CaseOutcomeType;
+  verification_status: CaseVerificationStatus;
   overlap_count: number;
   total_active_situation_factors: number;
   category_overlap: Record<FactorCategoryID, number>;
@@ -346,6 +437,49 @@ export interface AuditActionResponse {
   status: 'SUCCESS';
 }
 
+
+export interface SessionSubmitter {
+  role: string;
+  review_board: string;
+}
+
+export interface SessionInputSnapshot {
+  title: string;
+  mission_context: string;
+  raw_description: string;
+}
+
+export interface SessionAnalysisSummary {
+  status: ReviewStatus;
+  top_matched_case_names: string[];
+  overlap_score: number | null;
+  category_breadth: number | null;
+  counter_evidence_found: boolean;
+  matched_cases: PrecedentMatch[] | null;
+  confidence: ConfidenceAssessment | null;
+  counter_evidence: CounterEvidenceMatch[] | null;
+  grounded_explanation: GroundedExplanation | null;
+  abstention_detail: AbstentionDetail | null;
+}
+
+export interface AuditAction {
+  session_id: string;
+  action: AuditActionType;
+  engineer_notes: string | null;
+  recorded_at: string;
+}
+
+export interface ReviewSessionRecord {
+  session_id: string;
+  created_at: string;
+  updated_at: string;
+  submitter: SessionSubmitter;
+  input: SessionInputSnapshot;
+  extracted_factors: Record<string, ExtractedFactorItem>;
+  analysis_result: SessionAnalysisSummary | null;
+  audit_action: AuditAction | null;
+}
+
 export interface ReviewSessionSummary {
   session_id: string;
   created_at: string;
@@ -390,7 +524,14 @@ class SchedulePressureLevel(str, Enum):
 class CaseOutcomeType(str, Enum):
     CATASTROPHIC_FAILURE = "CATASTROPHIC_FAILURE"
     MISSION_LOSS = "MISSION_LOSS"
+    ADVERSE_EVENT_RECOVERED = "ADVERSE_EVENT_RECOVERED"
     NEAR_MISS_RECOVERED = "NEAR_MISS_RECOVERED"
+
+
+class CaseVerificationStatus(str, Enum):
+    VERIFIED = "VERIFIED"
+    PENDING_VERIFICATION = "PENDING_VERIFICATION"
+    USER_SUBMITTED = "USER_SUBMITTED"
 
 
 class ConfidenceLevel(str, Enum):
@@ -440,6 +581,7 @@ class HistoricalCase(BaseModel):
     mission_program: str
     incident_date: date
     outcome_type: CaseOutcomeType
+    verification_status: CaseVerificationStatus
     situation_summary: str = Field(..., min_length=20)
     factors: Dict[str, FactorCaseEvidence] = Field(..., description="8 fixed factors keyed by ID")
     key_decision_points: List[KeyDecisionPoint] = Field(default_factory=list)
@@ -513,6 +655,7 @@ class PrecedentMatch(BaseModel):
     mission_program: str
     incident_date: date
     outcome_type: CaseOutcomeType
+    verification_status: CaseVerificationStatus
     overlap_count: int = Field(ge=0, le=8)
     total_active_situation_factors: int
     category_overlap: Dict[FactorCategoryID, int]

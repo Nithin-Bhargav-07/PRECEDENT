@@ -18,7 +18,12 @@ interface PrecedentResultsPanelProps {
   result: PrecedentAnalysisResult;
   sessionId: string;
   factors: Record<string, ExtractedFactorItem>;
-  onAuditActionSuccess: (action: string, notes?: string) => void;
+  onAuditActionSuccess?: (action: string, notes?: string) => void;
+  existingAuditAction?: {
+    action: any;
+    engineer_notes?: string;
+    recorded_at: string;
+  } | null;
 }
 
 export const PrecedentResultsPanel: React.FC<PrecedentResultsPanelProps> = ({
@@ -26,6 +31,7 @@ export const PrecedentResultsPanel: React.FC<PrecedentResultsPanelProps> = ({
   sessionId,
   factors,
   onAuditActionSuccess,
+  existingAuditAction,
 }) => {
   const [expandedFactors, setExpandedFactors] = useState<Set<string>>(new Set());
 
@@ -530,6 +536,7 @@ export const PrecedentResultsPanel: React.FC<PrecedentResultsPanelProps> = ({
           sessionId={sessionId}
           result={result}
           onAuditActionSuccess={onAuditActionSuccess}
+          existingAuditAction={existingAuditAction}
         />
       </div>
     </div>

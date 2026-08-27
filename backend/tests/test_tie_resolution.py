@@ -1,23 +1,26 @@
 from unittest.mock import patch, MagicMock
 from app.services.engine.matcher import evaluate_situation
 from app.models.review import PrecedentMatch
-from app.models.enums import CaseOutcomeType
+from app.models.enums import CaseOutcomeType, CaseVerificationStatus
+from app.models.case import HistoricalCase
 import pytest
 
 @pytest.fixture
 def mock_case_a():
-    case = MagicMock()
-    case.id = "case_A"
+    case = MagicMock(spec=HistoricalCase)
+    case.case_id = "case_a"
     case.case_name = "Case A"
-    case.outcome_type = CaseOutcomeType.MISSION_LOSS
+    case.outcome_type = CaseOutcomeType.CATASTROPHIC_FAILURE
+    case.verification_status = CaseVerificationStatus.VERIFIED
     return case
 
 @pytest.fixture
 def mock_case_b():
-    case = MagicMock()
-    case.id = "case_B"
+    case = MagicMock(spec=HistoricalCase)
+    case.case_id = "case_b"
     case.case_name = "Case B"
-    case.outcome_type = CaseOutcomeType.MISSION_LOSS
+    case.outcome_type = CaseOutcomeType.CATASTROPHIC_FAILURE
+    case.verification_status = CaseVerificationStatus.VERIFIED
     return case
 
 @pytest.fixture

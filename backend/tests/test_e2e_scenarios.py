@@ -48,9 +48,19 @@ def test_scenario_1_challenger_analog_end_to_end(client, all_cases):
     assert len(factors) == 8
 
     # 2. Deterministic Evaluation
+    res_create = client.post("/api/v1/sessions", json={
+        "title": "Cryogenic Joint Thermal Margin",
+        "mission_context": "Pre-Launch Review (FRR)",
+        "raw_description": "Cold weather launch review with contractor engineering dissent on joint sealing performance.",
+        "submitter_role": "Engineer",
+        "review_board": "Test Board",
+        "extracted_factors": {}
+    })
+    session_id = res_create.json()["session_id"]
+    
     eval_res = client.post("/api/v1/evaluate-precedent", json={
-        "session_id": "SESS-CHALLENGER-E2E",
-        "title": title,
+        "session_id": session_id,
+        "title": "Cryogenic Joint Thermal Margin",
         "mission_context": mission_context,
         "raw_description": raw_desc,
         "confirmed_factors": {k: {"factor_id": k, "value": v, "extracted_value": v, "confidence": 0.9, "evidence_quote": None, "is_user_modified": False, "modification_reason": None} for k, v in {
@@ -75,14 +85,8 @@ def test_scenario_1_challenger_analog_end_to_end(client, all_cases):
     assert data["grounded_explanation"] is not None
 
     # 3. Formal Engineer Sign-off
-    create_res = client.post("/api/v1/sessions", json={
-        "title": title,
-        "mission_context": mission_context,
-        "raw_description": raw_desc,
-    })
-    sess_id = create_res.json()["session_id"]
-    sign_res = client.post(f"/api/v1/sessions/{sess_id}/action", json={
-        "session_id": sess_id,
+    sign_res = client.post(f"/api/v1/sessions/{session_id}/action", json={
+        "session_id": session_id,
         "action": "ACKNOWLEDGED",
         "engineer_notes": "Board acknowledged Challenger precedent.",
     })
@@ -95,8 +99,18 @@ def test_scenario_2_columbia_analog_end_to_end(client):
     Scenario 2: Columbia Analog (STS-107)
     Ascent debris strike assessment on orbit with dismissed DoD imagery requests.
     """
+    res_create = client.post("/api/v1/sessions", json={
+        "title": "External Tank Foam Strike Left Wing Leading Edge Assessment",
+        "mission_context": "Mission Management Team (MMT) — Flight Day 5 Review",
+        "raw_description": "Ascent debris impact on RCC wing panel with imagery requests denied.",
+        "submitter_role": "Engineer",
+        "review_board": "Test Board",
+        "extracted_factors": {}
+    })
+    session_id = res_create.json()["session_id"]
+    
     eval_res = client.post("/api/v1/evaluate-precedent", json={
-        "session_id": "SESS-COLUMBIA-E2E",
+        "session_id": session_id,
         "title": "External Tank Foam Strike Left Wing Leading Edge Assessment",
         "mission_context": "Mission Management Team (MMT) — Flight Day 5 Review",
         "raw_description": "Ascent debris impact on RCC wing panel with imagery requests denied.",
@@ -124,8 +138,18 @@ def test_scenario_3_nominal_abstention_bypasses_granite(client):
     Scenario 3: Nominal Flight Review (Zero Risk Factors)
     Ensures the engine abstains cleanly and Granite is completely bypassed.
     """
+    res_create = client.post("/api/v1/sessions", json={
+        "title": "Nominal Flight Readiness Subsystem Sign-Off",
+        "mission_context": "Flight Readiness Review (FRR)",
+        "raw_description": "All subsystems nominal with verified margins.",
+        "submitter_role": "Engineer",
+        "review_board": "Test Board",
+        "extracted_factors": {}
+    })
+    session_id = res_create.json()["session_id"]
+    
     eval_res = client.post("/api/v1/evaluate-precedent", json={
-        "session_id": "SESS-NOMINAL-E2E",
+        "session_id": session_id,
         "title": "Nominal Flight Readiness Subsystem Sign-Off",
         "mission_context": "Flight Readiness Review (FRR)",
         "raw_description": "All subsystems nominal with verified margins.",
@@ -166,8 +190,18 @@ def test_scenario_4_human_override_flow(client):
         "prior_normalization_of_risk": False,
         "independent_review_skipped": False,
     }
+    res_create = client.post("/api/v1/sessions", json={
+        "title": "Initial Nominal Review",
+        "mission_context": "FRR",
+        "raw_description": "Initial draft review",
+        "submitter_role": "Engineer",
+        "review_board": "Test Board",
+        "extracted_factors": {}
+    })
+    session_id = res_create.json()["session_id"]
+    
     res1 = client.post("/api/v1/evaluate-precedent", json={
-        "session_id": "SESS-OVERRIDE-E2E",
+        "session_id": session_id,
         "title": "Initial Nominal Review",
         "mission_context": "FRR",
         "raw_description": "Initial draft review",
@@ -185,8 +219,8 @@ def test_scenario_4_human_override_flow(client):
         "prior_normalization_of_risk": True,
     }
     res2 = client.post("/api/v1/evaluate-precedent", json={
-        "session_id": "SESS-OVERRIDE-E2E",
-        "title": "Engineer Updated Review",
+        "session_id": session_id,
+        "title": "Initial Nominal Review",
         "mission_context": "FRR",
         "raw_description": "Updated with telemetry and teleconference facts",
         "confirmed_factors": {k: {"factor_id": k, "value": v, "extracted_value": v, "confidence": 0.9, "evidence_quote": None, "is_user_modified": False, "modification_reason": None} for k, v in overridden_factors.items()},

@@ -30,6 +30,21 @@ async def evaluate_precedent(payload: EvaluatePrecedentRequest) -> PrecedentAnal
     Optionally attaches IBM Granite grounded natural-language synthesis for matched cases.
     """
     from app.models.enums import CaseVerificationStatus
+    from app.api.v1.sessions import _SESSIONS_STORE
+    from fastapi import HTTPException, status
+
+    session_record = _SESSIONS_STORE.get(payload.session_id)
+    if not session_record:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail=f"Review session '{payload.session_id}' not found."
+        )
+    if session_record.audit_action is not None:
+        raise HTTPException(
+            status_code=status.HTTP_409_CONFLICT,
+            detail=f"Review session '{payload.session_id}' has already been signed off and cannot be modified."
+        )
+
     all_cases = [c for c in case_repository.get_all_cases() if c.verification_status == CaseVerificationStatus.VERIFIED]
     
     result = evaluate_situation(
@@ -64,8 +79,13 @@ async def evaluate_precedent(payload: EvaluatePrecedentRequest) -> PrecedentAnal
         overlap_score=top_case.overlap_score if top_case else None,
         category_breadth=top_breadth,
         counter_evidence_found=len(result.counter_evidence or []) > 0,
+        matched_cases=result.matched_cases,
+        confidence=result.confidence,
+        counter_evidence=result.counter_evidence,
+        grounded_explanation=result.grounded_explanation,
+        abstention_detail=result.abstention_detail,
     )
     
-    update_session_analysis(payload.session_id, summary)
+    update_session_analysis(payload.session_id, summary, payload.confirmed_factors)
 
     return result

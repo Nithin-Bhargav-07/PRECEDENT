@@ -6,21 +6,27 @@ import type { AuditActionType, PrecedentAnalysisResult } from "../../types/revie
 interface AuditSignOffPanelProps {
   sessionId: string;
   result: PrecedentAnalysisResult;
-  onAuditActionSuccess: (action: string, notes?: string) => void;
+  onAuditActionSuccess?: (action: string, notes?: string) => void;
+  existingAuditAction?: {
+    action: AuditActionType;
+    engineer_notes?: string;
+    recorded_at: string;
+  } | null;
 }
 
 export const AuditSignOffPanel: React.FC<AuditSignOffPanelProps> = ({
   sessionId,
   result,
   onAuditActionSuccess,
+  existingAuditAction,
 }) => {
-  const [selectedAction, setSelectedAction] = useState<AuditActionType | null>(null);
-  const [engineerNotes, setEngineerNotes] = useState("");
+  const [selectedAction, setSelectedAction] = useState<AuditActionType | null>(existingAuditAction?.action || null);
+  const [engineerNotes, setEngineerNotes] = useState(existingAuditAction?.engineer_notes || "");
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [isSubmitted, setIsSubmitted] = useState(false);
-  const [submittedAction, setSubmittedAction] = useState<AuditActionType | null>(null);
+  const [isSubmitted, setIsSubmitted] = useState(!!existingAuditAction);
+  const [submittedAction, setSubmittedAction] = useState<AuditActionType | null>(existingAuditAction?.action || null);
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
-  const [submissionTime, setSubmissionTime] = useState<string | null>(null);
+  const [submissionTime, setSubmissionTime] = useState<string | null>(existingAuditAction?.recorded_at || null);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -45,7 +51,9 @@ export const AuditSignOffPanel: React.FC<AuditSignOffPanelProps> = ({
       setIsSubmitted(true);
       setSubmittedAction(selectedAction);
       setSubmissionTime(response.recorded_at);
-      onAuditActionSuccess(selectedAction, engineerNotes);
+      if (onAuditActionSuccess) {
+        onAuditActionSuccess(selectedAction, engineerNotes);
+      }
     } catch (err: any) {
       console.error("Failed to record audit action:", err);
       setErrorMsg(`Failed to record audit action: ${err.message}`);

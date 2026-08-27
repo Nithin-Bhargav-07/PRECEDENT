@@ -2,12 +2,14 @@ import React, { useEffect, useState, useMemo } from "react";
 import { Clock, CheckCircle2, XCircle, FileText, Search, ChevronLeft, ChevronRight } from "lucide-react";
 import { listSessions } from "../../lib/api";
 import type { ReviewSessionSummary } from "../../types/review";
+import { AuditSessionDetailView } from "./AuditSessionDetailView";
 
 const ITEMS_PER_PAGE = 25;
 
 export const AuditLogView: React.FC = () => {
   const [sessions, setSessions] = useState<ReviewSessionSummary[]>([]);
   const [isLoading, setIsLoading] = useState(true);
+  const [selectedSessionId, setSelectedSessionId] = useState<string | null>(null);
 
   // Filters
   const [searchQuery, setSearchQuery] = useState("");
@@ -78,6 +80,15 @@ export const AuditLogView: React.FC = () => {
     const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
     return filteredSessions.slice(startIndex, startIndex + ITEMS_PER_PAGE);
   }, [filteredSessions, currentPage]);
+
+  if (selectedSessionId) {
+    return (
+      <AuditSessionDetailView 
+        sessionId={selectedSessionId} 
+        onBack={() => setSelectedSessionId(null)} 
+      />
+    );
+  }
 
   return (
     <div className="space-y-6">
@@ -157,7 +168,11 @@ export const AuditLogView: React.FC = () => {
             </thead>
             <tbody className="divide-y divide-slate-800/60 font-sans">
               {currentSessions.map((s) => (
-                <tr key={s.session_id} className="hover:bg-slate-900/40 transition-colors">
+                <tr 
+                  key={s.session_id} 
+                  className="hover:bg-slate-900/40 transition-colors cursor-pointer"
+                  onClick={() => setSelectedSessionId(s.session_id)}
+                >
                   <td className="px-5 py-4 whitespace-nowrap">
                     <div className="font-mono font-bold text-slate-200">{s.session_id}</div>
                     <div className="font-mono text-[10px] text-slate-500 mt-0.5">
@@ -216,6 +231,7 @@ export const AuditLogView: React.FC = () => {
                       {s.audit_action === "DISMISSED" && <XCircle className="h-3 w-3" />}
                       {s.audit_action}
                     </span>
+                    <ChevronRight className="inline-block ml-3 h-4 w-4 text-slate-500" />
                   </td>
                 </tr>
               ))}

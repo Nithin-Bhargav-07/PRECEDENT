@@ -141,3 +141,45 @@ export interface ReviewSessionSummary {
 }
 
 export type { ExtractedFactorItem };
+
+export interface SessionInputSnapshot {
+  title: string;
+  mission_context: string;
+  raw_description: string;
+}
+
+export interface SessionSubmitter {
+  role: string;
+  review_board: string;
+}
+
+export interface AuditAction {
+  session_id: string;
+  action: AuditActionType;
+  engineer_notes?: string;
+  recorded_at: string;
+}
+
+export interface SessionAnalysisSummary {
+  status: ReviewStatus;
+  top_matched_case_names: string[];
+  overlap_score: number | null;
+  category_breadth: number | null;
+  counter_evidence_found: boolean;
+  matched_cases?: PrecedentMatch[] | null;
+  confidence?: ConfidenceAssessment | null;
+  counter_evidence?: CounterEvidenceMatch[] | null;
+  grounded_explanation?: GroundedExplanation | null;
+  abstention_detail?: AbstentionDetail | null;
+}
+
+export interface ReviewSessionRecord {
+  session_id: string;
+  created_at: string;
+  updated_at: string;
+  submitter: SessionSubmitter;
+  input: SessionInputSnapshot;
+  extracted_factors: Record<string, ExtractedFactorItem>;
+  analysis_result: SessionAnalysisSummary | null;
+  audit_action: AuditAction | null;
+}

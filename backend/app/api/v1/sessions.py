@@ -66,11 +66,18 @@ def _save_sessions() -> None:
 
 _load_sessions()
 
-def update_session_analysis(session_id: str, summary: SessionAnalysisSummary) -> None:
+def update_session_analysis(session_id: str, summary: SessionAnalysisSummary, confirmed_factors: dict[str, ExtractedFactorItem] | None = None) -> None:
     """Persist deterministic analysis results to the session audit record."""
     record = _SESSIONS_STORE.get(session_id)
     if record:
+        if record.audit_action is not None:
+            raise HTTPException(
+                status_code=status.HTTP_409_CONFLICT,
+                detail=f"Review session '{session_id}' has already been signed off and cannot be modified.",
+            )
         record.analysis_result = summary
+        if confirmed_factors is not None:
+            record.extracted_factors = confirmed_factors
         record.updated_at = datetime.now(timezone.utc)
         _save_sessions()
 

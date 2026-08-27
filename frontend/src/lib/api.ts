@@ -7,6 +7,7 @@ import type {
   AuditActionResponse,
   PrecedentAnalysisResult,
   ReviewSessionSummary,
+  ReviewSessionRecord,
 } from "../types/review";
 
 const API_BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:8000/api/v1";
@@ -122,6 +123,14 @@ export async function listSessions(): Promise<ReviewSessionSummary[]> {
   const response = await fetch(`${API_BASE_URL}/sessions`);
   if (!response.ok) {
     throw new Error(`Failed to list sessions (${response.status})`);
+  }
+  return response.json();
+}
+
+export async function getReviewSession(sessionId: string): Promise<ReviewSessionRecord> {
+  const response = await fetch(`${API_BASE_URL}/sessions/${sessionId}`);
+  if (!response.ok) {
+    throw new Error(`Failed to fetch session (${response.status})`);
   }
   return response.json();
 }

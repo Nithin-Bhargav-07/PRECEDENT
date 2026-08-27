@@ -12,6 +12,7 @@ from app.models.case import HistoricalCase
 from app.models.factors import ExtractedFactorItem
 from app.models.enums import (
     CaseOutcomeType,
+    CaseVerificationStatus,
     FactorCategoryID,
     ReviewStatus,
     SchedulePressureLevel,
@@ -220,6 +221,7 @@ def evaluate_situation(
         c
         for c in all_cases
         if c.outcome_type in {CaseOutcomeType.CATASTROPHIC_FAILURE, CaseOutcomeType.MISSION_LOSS}
+        and c.verification_status == CaseVerificationStatus.VERIFIED
     ]
 
     matched_candidates: list[tuple[PrecedentMatch, HistoricalCase, tuple[float, int, int, float]]] = []

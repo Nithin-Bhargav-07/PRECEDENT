@@ -100,6 +100,7 @@ export default function App() {
     setRawDescription(preset.description);
     setAnalysisResult(null);
     setErrorMessage(null);
+    setSessionId(null);
 
     const updatedFactors: Record<string, ExtractedFactorItem> = {};
     FACTOR_METADATA.forEach((meta) => {
@@ -123,6 +124,7 @@ export default function App() {
     setRawDescription("");
     setAnalysisResult(null);
     setErrorMessage(null);
+    setSessionId(null);
     const blankFactors: Record<string, ExtractedFactorItem> = {};
     FACTOR_METADATA.forEach((meta) => {
       blankFactors[meta.id] = {
@@ -151,9 +153,6 @@ export default function App() {
         session_id: sessionId || undefined,
       });
 
-      if (response.session_id) {
-        setSessionId(response.session_id);
-      }
       setFactors(response.factors);
       setProvider(response.provider);
     } catch (err: any) {

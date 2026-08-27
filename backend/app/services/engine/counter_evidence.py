@@ -6,7 +6,7 @@ Strictly adheres to 03_REASONING_ENGINE.md §9.
 from __future__ import annotations
 
 from app.models.case import HistoricalCase
-from app.models.enums import CaseOutcomeType, SchedulePressureLevel
+from app.models.enums import CaseOutcomeType, CaseVerificationStatus, SchedulePressureLevel
 from app.models.factors import FACTOR_CATEGORY_MAP, FACTOR_DEFINITIONS
 from app.models.review import CounterEvidenceMatch
 
@@ -24,6 +24,9 @@ def find_counter_evidence(
     matches: list[CounterEvidenceMatch] = []
 
     for case in candidate_cases:
+        if case.verification_status != CaseVerificationStatus.VERIFIED:
+            continue
+
         # Must be an adverse-event or near-miss recovered mission
         if case.outcome_type not in {CaseOutcomeType.ADVERSE_EVENT_RECOVERED, CaseOutcomeType.NEAR_MISS_RECOVERED}:
             continue

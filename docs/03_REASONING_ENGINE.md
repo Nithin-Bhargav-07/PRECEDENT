@@ -104,17 +104,20 @@ $$B(S, H^{(c)}) = \left| \left\{ C \in \mathcal{C} \;\middle|\; \exists f \in C 
 *(Where $B \in \{0, 1, 2, 3, 4\}$, representing the number of distinct categories with at least one matching risk factor).*
 
 ### 5.3 Lexicographical Ranking Key
-Historical failure cases are ranked using a strict, deterministic tuple:
+Historical failure cases are ranked using a strict, deterministic 4-tuple:
 
-$$\text{RankKey}(H^{(c)}) = \Big( \text{Score}_{\text{overlap}}(S, H^{(c)}), \; B(S, H^{(c)}), \; \text{Score}_{\text{org}}(S, H^{(c)}) \Big)$$
+$$\text{RankKey}(H^{(c)}) = \Big( \text{Score}_{\text{overlap}}(S, H^{(c)}), \; B(S, H^{(c)}), \; -\text{Overmatch}(S, H^{(c)}), \; \text{Score}_{\text{org}}(S, H^{(c)}) \Big)$$
 
-Where $\text{Score}_{\text{org}}$ is the organizational failure factor score:
+Where $\text{Overmatch}(S, H^{(c)})$ represents historical overmatch (the number of active risk factors documented in the historical case that are not present in the current situation profile). It is inverted ($-$) to penalize cases with excessive unrelated historical risk factors.
+
+And $\text{Score}_{\text{org}}$ is the organizational failure factor score:
 $$\text{Score}_{\text{org}}(S, H^{(c)}) = \mu(S[f_{\text{dissent}}], H^{(c)}[f_{\text{dissent}}]) + \mu(S[f_{\text{prior\_norm}}], H^{(c)}[f_{\text{prior\_norm}}])$$
 
 **Why this ranking order is chosen:**
 1. $\text{Score}_{\text{overlap}}$ ensures the case with the greatest total risk factor alignment ranks highest.
 2. $B(S, H^{(c)})$ breaks ties by rewarding multi-dimensional causal alignment (e.g., technical + organizational failure over purely technical similarity).
-3. $\text{Score}_{\text{org}}$ prioritizes the two root organizational failure modes (*dissent overruled* and *normalization of deviance*) documented as primary causes across Challenger, Columbia, and Apollo 1.
+3. $-\text{Overmatch}(S, H^{(c)})$ penalizes historical cases that have many active risks not present in the current situation, ensuring the most precise analogy ranks higher.
+4. $\text{Score}_{\text{org}}$ acts as the final tie-breaker, prioritizing the two root organizational failure modes (*dissent overruled* and *normalization of deviance*) documented as primary causes across Challenger, Columbia, and Apollo 1.
 
 ---
 
@@ -129,12 +132,12 @@ PRECEDENT avoids fabricated percentage metrics. Confidence is computed as a disc
 │  LEVEL   │ DETERMINISTIC CRITERIA                                      │
 ├──────────┼─────────────────────────────────────────────────────────────┤
 │   HIGH   │ Score_overlap ≥ 3.0 AND Category Breadth B ≥ 2             │
-│          │ OR (Score_overlap ≥ 2.0 AND Score_overlap = |F_active(S)|)  │
+│          │ OR (Score_overlap ≥ 2.0 AND Score_overlap ≥ |F_active(S)|)  │
 ├──────────┼─────────────────────────────────────────────────────────────┤
-│  MEDIUM  │ Score_overlap = 2.0 AND Category Breadth B ≥ 1             │
-│          │ OR (Score_overlap = 2.5 AND Category Breadth B = 1)         │
+│  MEDIUM  │ Score_overlap ≥ 2.0 AND Category Breadth B ≥ 1             │
+│          │ OR (Score_overlap ≥ 1.5 AND Category Breadth B ≥ 2)         │
 ├──────────┼─────────────────────────────────────────────────────────────┤
-│   LOW    │ Score_overlap = 1.0 (Single factor overlap)                 │
+│   LOW    │ Score_overlap ≥ 1.0                                        │
 ├──────────┼─────────────────────────────────────────────────────────────┤
 │   NONE   │ Score_overlap = 0.0 OR |F_active(S)| = 0                    │
 └──────────┴─────────────────────────────────────────────────────────────┘
