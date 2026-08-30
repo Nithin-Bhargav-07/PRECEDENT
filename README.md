@@ -15,22 +15,22 @@ Conventional keyword search, generic RAG, and opaque AI similarity scores are in
 ## 2. THE SOLUTION
 PRECEDENT solves this by strictly separating deterministic decision logic from generative explanation. 
 
-**Current Mission Situation**
-↓
-**8 Canonical Risk Factors**
-↓
-**Deterministic Matcher**
-↓
-**RankKey**
-↓
-**Primary / Tied Precedents**
-↓
-**Confidence & Counter-Evidence**
-↓
-**IBM Granite Grounded Synthesis**
-↓
-**Engineer Review & Sign-Off**
-↓
+**Current Mission Situation**  
+↓  
+**8 Canonical Risk Factors**  
+↓  
+**Deterministic Matcher**  
+↓  
+**RankKey**  
+↓  
+**Primary / Tied Precedents**  
+↓  
+**Confidence & Counter-Evidence**  
+↓  
+**IBM Granite Grounded Synthesis**  
+↓  
+**Engineer Review & Sign-Off**  
+↓  
 **Immutable Audit Log & Replay**
 
 **Architectural Boundary:** 
