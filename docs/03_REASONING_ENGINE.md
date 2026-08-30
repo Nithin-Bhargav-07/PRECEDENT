@@ -24,13 +24,13 @@ Let $\mathcal{F}$ denote the fixed set of 8 decision factors partitioned into 4 
 
 $$\mathcal{F} = \{f_1, f_2, \dots, f_8\}$$
 
-$$\mathcal{C}_{\text{TECH}} = \{f_{\text{known\_unresolved\_issue}}, f_{\text{safety\_margin\_degraded}}\}$$
+**C_TECH** = { `f_known_unresolved_issue`, `f_safety_margin_degraded` }
 
-$$\mathcal{C}_{\text{ENV}} = \{f_{\text{schedule\_pressure}}, f_{\text{external\_conditions\_marginal}}\}$$
+**C_ENV** = { `f_schedule_pressure`, `f_external_conditions_marginal` }
 
-$$\mathcal{C}_{\text{HUMAN}} = \{f_{\text{dissent\_raised\_and\_overridden}}, f_{\text{missing\_evidence\_acknowledged}}\}$$
+**C_HUMAN** = { `f_dissent_raised_and_overridden`, `f_missing_evidence_acknowledged` }
 
-$$\mathcal{C}_{\text{PROCESS}} = \{f_{\text{prior\_normalization\_of\_risk}}, f_{\text{independent\_review\_skipped}}\}$$
+**C_PROCESS** = { `f_prior_normalization_of_risk`, `f_independent_review_skipped` }
 
 ### 2.2 Factor Representation Vectors
 For any given input situation $S$ and historical case $H^{(c)}$ in the case library $\mathcal{H}$:
@@ -54,14 +54,14 @@ $$\text{IsRiskActive}(v) = \begin{cases}
 ### 3.1 Factor Match Function $\mu(S[f], H[f])$
 The match value between a situation factor and a historical case factor is evaluated as follows:
 
-1. **For Boolean Factors ($f \neq \text{schedule\_pressure}$):**
+1. **For Boolean Factors ($f \neq$ `schedule_pressure`):**
    $$\mu(S[f], H[f]) = \begin{cases} 
    1.0 & \text{if } S[f] = \text{True} \land H[f] = \text{True} \quad (\text{Shared Active Risk}) \\
    0.0 & \text{otherwise}
    \end{cases}$$
    *(Note: Two factors that are both `False` are NOT counted as shared risk factors, preventing false similarity scores on nominal flags).*
 
-2. **For Schedule Pressure ($f = \text{schedule\_pressure}$):**
+2. **For Schedule Pressure ($f =$ `schedule_pressure`):**
    | Situation Value ($S[f]$) | Case Value ($H[f]$) | Match Value $\mu$ | Interpretation |
    | :--- | :--- | :---: | :--- |
    | `"HIGH"` | `"HIGH"` | **1.0** | Full match on acute schedule pressure |
@@ -100,7 +100,7 @@ $$\text{Score}_{\text{overlap}}(S, H^{(c)}) = \sum_{f \in \mathcal{F}} \mu(S[f],
 ### 5.2 Category Breadth Metric
 To prevent localized false positives (e.g., matching 2 factors in only Technical State while completely missing organizational dynamics), the engine computes **Category Breadth** $B(S, H^{(c)})$:
 
-$$B(S, H^{(c)}) = \left| \left\{ C \in \mathcal{C} \;\middle|\; \exists f \in C \text{ such that } \mu(S[f], H^{(c)}[f]) > 0 \right\} \right|$$
+$$B(S, H^{(c)}) = | \{ C \in \mathcal{C} \mid \exists f \in C \text{ such that } \mu(S[f], H^{(c)}[f]) > 0 \} |$$
 *(Where $B \in \{0, 1, 2, 3, 4\}$, representing the number of distinct categories with at least one matching risk factor).*
 
 ### 5.3 Lexicographical Ranking Key
@@ -111,7 +111,7 @@ $$\text{RankKey}(H^{(c)}) = \Big( \text{Score}_{\text{overlap}}(S, H^{(c)}), \; 
 Where $\text{Overmatch}(S, H^{(c)})$ represents historical overmatch (the number of active risk factors documented in the historical case that are not present in the current situation profile). It is inverted ($-$) to penalize cases with excessive unrelated historical risk factors.
 
 And $\text{Score}_{\text{org}}$ is the organizational failure factor score:
-$$\text{Score}_{\text{org}}(S, H^{(c)}) = \mu(S[f_{\text{dissent}}], H^{(c)}[f_{\text{dissent}}]) + \mu(S[f_{\text{prior\_norm}}], H^{(c)}[f_{\text{prior\_norm}}])$$
+**Score_org**(S, H^{(c)}) = μ(S[`f_dissent`], H^{(c)}[`f_dissent`]) + μ(S[`f_prior_norm`], H^{(c)}[`f_prior_norm`])
 
 **Why this ranking order is chosen:**
 1. $\text{Score}_{\text{overlap}}$ ensures the case with the greatest total risk factor alignment ranks highest.
@@ -188,7 +188,7 @@ For a current situation $S$, the engine queries the counter-evidence case librar
 
 2. **Divergent Safe Safeguard Condition:**
    The counter-case must have executed a positive safeguard where the failure case failed:
-   $$(H_{\text{counter}}[f_{\text{independent\_review\_skipped}}] = \text{False}) \;\lor\; (H_{\text{counter}}[f_{\text{dissent\_raised\_and\_overridden}}] = \text{False})$$
+   (H_counter[`f_independent_review_skipped`] == False) ∨ (H_counter[`f_dissent_raised_and_overridden`] == False)
 
 3. **Output Formatting:**
    The engine surfaces the counter-evidence case with its **Divergent Corrective Action** (e.g., *"Independent photo-interpretation team mobilized to verify structural margin prior to reentry clearance"*), proving to the review board that risk can be managed through verification rather than normalized.

@@ -149,14 +149,14 @@ Older sparse session records remain readable because newly persisted audit field
 flowchart TB
     ENG["Engineering User"]
 
-    subgraph FRONTEND["React / TypeScript Frontend"]
+    subgraph FRONTEND ["React / TypeScript Frontend"]
         UI["Review Workspace / Case Base / Audit Log"]
     end
 
-    subgraph BACKEND["FastAPI Backend"]
+    subgraph BACKEND ["FastAPI Backend"]
         API["REST API"]
         
-        subgraph ENGINE["Deterministic Engine"]
+        subgraph ENGINE ["Deterministic Engine"]
             MATCH["Factor Matching"]
             RANK["RankKey / Tie Handling"]
             CONF["Confidence / Counter-Evidence"]
@@ -167,13 +167,13 @@ flowchart TB
         EXPLAIN["Grounded Explanation Service"]
     end
 
-    subgraph AI["AI Layer"]
+    subgraph AI ["AI Layer"]
         GRANITE["IBM Granite"]
         FALLBACK["Multi-LLM Fallback (Resilience)"]
         GRANITE -.-> FALLBACK
     end
 
-    subgraph STORAGE["Persistence"]
+    subgraph STORAGE ["Persistence"]
         CASES["Historical Case Repository"]
         SESSIONS["Session / Audit Repository"]
     end
