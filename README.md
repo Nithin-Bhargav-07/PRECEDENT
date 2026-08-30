@@ -215,7 +215,23 @@ docs/
 
 ---
 
-## 9. RUNNING LOCALLY
+## 9. TECH STACK
+
+| Layer | Technology |
+|---|---|
+| Frontend | React, TypeScript, Vite, Tailwind CSS |
+| Backend | Python, FastAPI, Pydantic |
+| Decision Engine | Custom deterministic ranking engine |
+| Primary AI | IBM watsonx, IBM Granite |
+| AI Resilience | Multi-LLM provider fallback |
+| Document Processing | pypdf |
+| Storage | JSON repository (`cases.json`) |
+| Testing | pytest, TypeScript compiler, Vite build |
+| Development Ecosystem | IBM Bob |
+
+---
+
+## 10. RUNNING LOCALLY
 
 ### Backend
 ```bash
@@ -236,7 +252,7 @@ npm run dev
 
 ---
 
-## 10. TESTING
+## 11. TESTING
 **Backend:** (Covers deterministic invariants, API, persistence, and audit behavior)
 ```bash
 cd backend
@@ -250,7 +266,7 @@ npm run build
 
 ---
 
-## 11. USE CASES
+## 12. USE CASES
 - Flight Readiness Reviews (FRR)
 - Launch Readiness Reviews (LRR)
 - Anomaly Review Boards (ARB)
@@ -260,7 +276,7 @@ npm run build
 
 ---
 
-## 12. ROADMAP
+## 13. ROADMAP
 - OCR for legacy scanned reports
 - Richer provenance and citation storage
 - PostgreSQL / Enterprise persistence
