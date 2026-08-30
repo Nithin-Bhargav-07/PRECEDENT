@@ -40,6 +40,15 @@ PRECEDENT solves this by strictly separating deterministic decision logic from g
 - IBM Granite provides grounded explanation and narrative synthesis.
 - The engineer remains responsible for review and sign-off.
 
+For the complete architecture and implementation details, see
+[System Architecture](docs/01_SYSTEM_ARCHITECTURE.md).
+
+For the complete data model and persistence structure, see
+[Data Model](docs/02_DATA_MODEL.md).
+
+For the complete deterministic reasoning model, see
+[Reasoning Engine](docs/03_REASONING_ENGINE.md).
+
 ---
 
 ## 3. WHY DETERMINISTIC DECISION LOGIC?
