@@ -45,11 +45,11 @@ PRECEDENT is architected as a decoupled, single-service web application comprisi
 ```mermaid
 flowchart TB
     subgraph Client ["Client Tier (React / Vite / TypeScript)"]
-        UI_Form["1. Review Input Form\n(Structured + Free Text)"]
-        UI_FactorReview["2. Factor Inspection & Override\n(Human-in-the-Loop)"]
-        UI_Results["3. Precedent & Reasoning View\n(Shared vs Different Factors)"]
-        UI_Counter["4. Counter-Evidence Panel\n(Safe Precedents)"]
-        UI_Audit["5. Acknowledge / Dismiss Action\n(Audit Logging)"]
+        UI_Form["1. Review Input Form<br/>(Structured + Free Text)"]
+        UI_FactorReview["2. Factor Inspection & Override<br/>(Human-in-the-Loop)"]
+        UI_Results["3. Precedent & Reasoning View<br/>(Shared vs Different Factors)"]
+        UI_Counter["4. Counter-Evidence Panel<br/>(Safe Precedents)"]
+        UI_Audit["5. Acknowledge / Dismiss Action<br/>(Audit Logging)"]
     end
 
     subgraph API ["API & Routing Tier (FastAPI)"]
@@ -58,21 +58,21 @@ flowchart TB
     end
 
     subgraph Services ["Service & Engine Tier"]
-        ExtractSvc["Extraction Service\n(watsonx / Granite Client)"]
-        ReasonEngine["Deterministic Reasoning Engine\n(Categorical Factor Matcher)"]
-        ExplainSvc["Explanation Service\n(watsonx / Granite Grounding)"]
+        ExtractSvc["Extraction Service<br/>(watsonx / Granite Client)"]
+        ReasonEngine["Deterministic Reasoning Engine<br/>(Categorical Factor Matcher)"]
+        ExplainSvc["Explanation Service<br/>(watsonx / Granite Grounding)"]
         AuditSvc["Audit & Session Service"]
     end
 
     subgraph AI ["IBM Foundation Model Layer"]
-        GraniteExtract["IBM Granite 3.0 / 13B / 20B\n(Factor Extraction Mode)"]
-        GraniteExplain["IBM Granite 3.0 / 13B / 20B\n(Grounded Explanation Mode)"]
+        GraniteExtract["IBM Granite 3.0 / 13B / 20B<br/>(Factor Extraction Mode)"]
+        GraniteExplain["IBM Granite 3.0 / 13B / 20B<br/>(Grounded Explanation Mode)"]
     end
 
     subgraph Storage ["Data Tier"]
-        CaseDB[("Historical Case Base\n(JSON / SQLite)\n15-20 Failures + 3-5 Counter")]
-        AuditDB[("Review Session Store\n(SQLite / JSON Log)")]
-        VectorDB[("Optional ChromaDB\n(Disabled by default;\nNever overrides deterministic)")]
+        CaseDB[("Historical Case Base<br/>(JSON / SQLite)<br/>15-20 Failures + 3-5 Counter")]
+        AuditDB[("Review Session Store<br/>(SQLite / JSON Log)")]
+        VectorDB[("Optional ChromaDB<br/>(Disabled by default;<br/>Never overrides deterministic)")]
     end
 
     %% Flow connections
@@ -83,7 +83,7 @@ flowchart TB
     GraniteExtract -->|Extracted Factors| ExtractSvc
     ExtractSvc -->|Return Extracted Factors| UI_FactorReview
 
-    UI_FactorReview -->|POST /api/review-situation\n(Confirmed Factors)| Router
+    UI_FactorReview -->|POST /api/review-situation<br/>(Confirmed Factors)| Router
     Router --> ReasonEngine
     ReasonEngine <-->|Query Structured Cases| CaseDB
     ReasonEngine -.->|Optional Hybrid Similarity| VectorDB
@@ -93,7 +93,7 @@ flowchart TB
     ExplainSvc -->|Complete Analysis Result| UI_Results
     ReasonEngine -->|Counter-Cases| UI_Counter
 
-    UI_Audit -->|POST /api/sessions/action\n(Acknowledge/Dismiss)| Router
+    UI_Audit -->|POST /api/sessions/action<br/>(Acknowledge/Dismiss)| Router
     Router --> AuditSvc
     AuditSvc -->|Persist Decision Record| AuditDB
 ```

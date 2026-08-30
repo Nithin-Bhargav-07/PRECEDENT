@@ -20,7 +20,7 @@ The PRECEDENT Reasoning Engine is the deterministic intellectual core of the sys
 ## 2. Formal Mathematical Formulation
 
 ### 2.1 Factor Space Definition
-Let $\mathcal{F}$ denote the fixed set of 8 decision factors partitioned into 4 disjoint categories $\mathcal{C} = \{\text{CAT\_TECH}, \text{CAT\_ENV}, \text{CAT\_HUMAN}, \text{CAT\_PROCESS}\}$:
+Let $\mathcal{F}$ denote the fixed set of 8 decision factors partitioned into 4 disjoint categories **C** = { `CAT_TECH`, `CAT_ENV`, `CAT_HUMAN`, `CAT_PROCESS` }:
 
 $$\mathcal{F} = \{f_1, f_2, \dots, f_8\}$$
 
