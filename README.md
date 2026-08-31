@@ -105,7 +105,28 @@ Ties are handled explicitly. If two cases yield identical tuples, the system ret
 
 ---
 
-## 5. IBM GRANITE & AI ROLE
+## 5. HOW IBM BOB WAS USED
+
+IBM Bob was used as the development and implementation assistant for PRECEDENT. Its role was specific to building this application, not making the aerospace reasoning decisions.
+
+### IBM Bob's Role in PRECEDENT
+
+- Assisted in implementing the **React / TypeScript frontend** for the Review Workspace, Factor Review, Precedent Results, Counter-Evidence, and Audit Log workflows.
+- Assisted in implementing the **FastAPI backend**, API routes, request/response schemas, and service-layer integration.
+- Assisted in implementing and refining the **deterministic 8-factor precedent matching engine**, including factor comparison, RankKey ordering, tie handling, confidence, counter-evidence, and abstention behavior.
+- Assisted in implementing **IBM Granite integration** for structured factor extraction and grounded explanation.
+- Assisted in implementing **audit-session persistence and historical replay**, including engineer sign-off and immutable decision records.
+- Assisted with debugging, integration, and validation across the frontend, backend, reasoning engine, and persistence layers.
+
+### Strict Boundary
+
+IBM Bob was used as a **software development tool**. It does not determine which historical precedent is selected and does not make flight-readiness decisions.
+
+The final precedent ranking, tie handling, confidence, counter-evidence, and abstention are controlled by PRECEDENT's deterministic reasoning engine. IBM Granite is used only for factor extraction and grounded narrative synthesis.
+
+---
+
+## 6. IBM GRANITE & AI ROLE
 
 **AI DOES:**
 - Assist with extracting structured factors from unstructured mission reports.
@@ -121,7 +142,7 @@ Multi-LLM fallback providers are available for resilience infrastructure only, a
 
 ---
 
-## 6. AUDITABILITY & SIGN-OFF
+## 7. AUDITABILITY & SIGN-OFF
 
 ### Factor Provenance
 The system meticulously distinguishes between AI-extracted values, engineer-confirmed/final values, and user modifications.
@@ -143,7 +164,7 @@ Older sparse session records remain readable because newly persisted audit field
 
 ---
 
-## 7. ARCHITECTURE
+## 8. ARCHITECTURE
 
 ```mermaid
 flowchart TB
@@ -199,7 +220,7 @@ flowchart TB
 
 ---
 
-## 8. PROJECT STRUCTURE
+## 9. PROJECT STRUCTURE
 
 ```text
 backend/
@@ -224,7 +245,7 @@ docs/
 
 ---
 
-## 9. TECH STACK
+## 10. TECH STACK
 
 | Layer | Technology |
 |---|---|
@@ -240,7 +261,7 @@ docs/
 
 ---
 
-## 10. RUNNING LOCALLY
+## 11. RUNNING LOCALLY
 
 ### Backend
 ```bash
@@ -261,7 +282,7 @@ npm run dev
 
 ---
 
-## 11. TESTING
+## 12. TESTING
 **Backend:** (Covers deterministic invariants, API, persistence, and audit behavior)
 ```bash
 cd backend
@@ -275,7 +296,7 @@ npm run build
 
 ---
 
-## 12. USE CASES
+## 13. USE CASES
 - Flight Readiness Reviews (FRR)
 - Launch Readiness Reviews (LRR)
 - Anomaly Review Boards (ARB)
@@ -285,7 +306,7 @@ npm run build
 
 ---
 
-## 13. ROADMAP
+## 14. ROADMAP
 - OCR for legacy scanned reports
 - Richer provenance and citation storage
 - PostgreSQL / Enterprise persistence
